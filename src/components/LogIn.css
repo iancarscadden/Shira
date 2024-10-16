@@ -1,6 +1,20 @@
-/* src/components/LogIn.css */
+/* Global Styles */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 
-.login-page {
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica', sans-serif;
+  background-color: #00759c;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Page Container */
+.login-page, .signup-page {
   position: relative;
   width: 100%;
   height: 100vh;
@@ -14,19 +28,38 @@
   width: 100%;
   height: 100%;
   z-index: 0;
+  pointer-events: none; /* Prevent canvas from blocking interactions */
 }
 
-/* Header Container: Log In / Sign Up Buttons */
-.header {
-  position: absolute;
-  top: 1rem;
-  right: 2rem;
-  z-index: 10;
+/* Navbar */
+.navbar {
+  background-color: #f0f0f0;
+  height: 60px;
   display: flex;
-  gap: 15px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Log In and Sign Up Buttons */
+/* Navbar Brand */
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #00759c;
+  text-decoration: none;
+}
+
+.navbar-brand:hover {
+  color: #005f8c;
+}
+
+/* Header Buttons */
 .header-button {
   text-decoration: none;
   color: #00759c;
@@ -35,20 +68,16 @@
   border: 1px solid #00759c;
   border-radius: 5px;
   background-color: white;
-  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, color 0.3s, transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+  margin-left: 10px;
 }
 
 .header-button:hover {
   background-color: #00759c;
   color: white;
-  transform: translateY(-2px);
+  transform: scale(1.05);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.header-button:active {
-  transform: translateY(0);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* Form Container */
@@ -73,17 +102,18 @@
   font-size: 2rem;
 }
 
-.login-form {
+/* Login and Signup Forms */
+.login-form, .signup-form {
   display: flex;
   flex-direction: column;
 }
 
-.login-form label {
+.login-form label, .signup-form label {
   margin-bottom: 0.5rem;
   font-weight: 500;
 }
 
-.login-form input {
+.login-form input, .signup-form input {
   padding: 0.75rem;
   margin-bottom: 1rem;
   border: none;
@@ -91,11 +121,12 @@
   font-size: 1rem;
 }
 
-.login-form input:focus {
+.login-form input:focus, .signup-form input:focus {
   outline: none;
   box-shadow: 0 0 5px #7ed348;
 }
 
+/* Submit Button */
 .submit-button {
   background-color: #7ed348;
   color: #00759c;
@@ -106,10 +137,27 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.3s ease;
+  transition: background-color 0.3s, transform 0.3s;
 }
 
 .submit-button:hover {
   background-color: #6CBC40;
   transform: scale(1.05);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+
+  .header-button {
+    padding: 6px 12px;
+    font-size: 0.9rem;
+  }
+
+  .form-container {
+    width: 95%;
+    max-width: 350px;
+  }
 }

@@ -1,11 +1,12 @@
 // src/components/LandingPage.js
 import React, { useEffect, useRef } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import './LandingPage.css';
 
 export default function LandingPage() {
   const canvasRef = useRef(null);
-  const cursorRef = useRef({ x: 0, y: 0 });
+  const cursorRef = useRef({ x: 0, y: 0 }); // Fixed: Properly defined cursorRef
+  const navigate = useNavigate();
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -26,12 +27,7 @@ export default function LandingPage() {
 
     for (let x = 0; x < canvas.width; x += spacing) {
       for (let y = 0; y < canvas.height; y += spacing) {
-        dots.push({
-          x,
-          y,
-          radius: dotSize / 2,
-          originalRadius: dotSize / 2,
-        });
+        dots.push({ x, y, radius: dotSize / 2, originalRadius: dotSize / 2 });
       }
     }
 
@@ -40,7 +36,7 @@ export default function LandingPage() {
       dots.forEach((dot) => {
         const distance = Math.sqrt(
           Math.pow(dot.x - cursorRef.current.x, 2) +
-            Math.pow(dot.y - cursorRef.current.y, 2)
+          Math.pow(dot.y - cursorRef.current.y, 2)
         );
         const maxDistance = 100;
         const scale = Math.max(0, 1 - distance / maxDistance);
@@ -57,15 +53,13 @@ export default function LandingPage() {
 
     drawDots();
 
-    const handleMouseMove = (event) => {
-      cursorRef.current = { x: event.clientX, y: event.clientY };
-    };
-
-    window.addEventListener('mousemove', handleMouseMove);
+    window.addEventListener('mousemove', (event) => {
+      cursorRef.current = { x: event.clientX, y: event.clientY }; // Using cursorRef correctly
+    });
 
     return () => {
       window.removeEventListener('resize', resizeCanvas);
-      window.removeEventListener('mousemove', handleMouseMove);
+      window.removeEventListener('mousemove', () => {});
     };
   }, []);
 
@@ -73,25 +67,16 @@ export default function LandingPage() {
     <div className="landing-page">
       <canvas ref={canvasRef} className="background-canvas" />
 
-      {/* Header: Log In / Sign Up Buttons */}
-      <div className="header">
-        <div className="buttons">
-          <Link
-            to="/login"
-            className="header-button"
-          >
-            Log In
-          </Link>
-          <Link
-            to="/signup"
-            className="header-button"
-          >
-            Sign Up
-          </Link>
+      {/* Navbar */}
+      <div className="navbar">
+        <div></div> {/* Empty div to maintain alignment */}
+        <div className="navbar-buttons">
+          <Link to="/login" className="header-button">Log In</Link>
+          <Link to="/signup" className="header-button">Sign Up</Link>
         </div>
       </div>
 
-      {/* Main Content Centered */}
+      {/* Main Content */}
       <div className="main-content">
         <h1>LinguaBeats</h1>
         <div className="text-section">
@@ -114,7 +99,9 @@ export default function LandingPage() {
             </p>
           </section>
         </div>
-        <button className="start-button">Start Learning Now</button>
+        <button className="start-button" onClick={() => navigate('/signup')}>
+          Start Learning Now
+        </button>
       </div>
     </div>
   );

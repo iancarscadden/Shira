@@ -1,11 +1,9 @@
 /* src/components/LandingPage.css */
 
-/* Apply box-sizing globally */
 *, *::before, *::after {
   box-sizing: border-box;
 }
 
-/* General Styles */
 body, html {
   margin: 0;
   padding: 0;
@@ -13,14 +11,13 @@ body, html {
   background-color: #00759c;
   height: 100%;
   width: 100%;
-  overflow-x: hidden; /* Prevent horizontal scroll */
+  overflow-x: hidden;
 }
 
 .landing-page {
   position: relative;
   width: 100%;
   height: 100vh;
-  overflow: hidden;
 }
 
 .background-canvas {
@@ -30,53 +27,53 @@ body, html {
   width: 100%;
   height: 100%;
   z-index: 0;
+  pointer-events: none;
 }
 
-/* Header Container: Log In / Sign Up Buttons */
-.header {
-  position: absolute;
-  top: 1rem;
-  right: 2rem;
-  z-index: 10;
+.navbar {
+  background-color: #f0f0f0;
+  height: 60px;
   display: flex;
-  gap: 15px;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Log In and Sign Up Buttons */
 .header-button {
   text-decoration: none;
   color: #00759c;
   font-weight: 600;
-  padding: 8px 16px;
+  padding: 10px 20px;
+  margin-left: 10px;
   border: 1px solid #00759c;
   border-radius: 5px;
   background-color: white;
-  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+  cursor: pointer;
 }
 
 .header-button:hover {
   background-color: #00759c;
   color: white;
-  transform: translateY(-2px);
+  transform: scale(1.05);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.header-button:active {
-  transform: translateY(0);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-/* Main Content Container */
 .main-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh; /* Full viewport height */
+  height: 100vh;
   text-align: center;
-  padding: 0 2rem; /* Add some padding for smaller screens */
-  z-index: 10;
+  padding: 0 2rem;
+  z-index: 5;
   position: relative;
 }
 
@@ -109,7 +106,6 @@ body, html {
   color: white;
 }
 
-/* Start Learning Now Button */
 .start-button {
   background-color: #7ed348;
   color: #00759c;
@@ -120,7 +116,7 @@ body, html {
   border: none;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s, box-shadow 0.3s;
   cursor: pointer;
 }
 
@@ -130,7 +126,6 @@ body, html {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
-/* Responsive Adjustments */
 @media (max-width: 768px) {
   .main-content h1 {
     font-size: 3rem;

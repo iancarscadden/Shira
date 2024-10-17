@@ -1,0 +1,66 @@
+/* src/components/SongView.css */
+
+.song-view-page {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #00759c;
+  overflow: hidden;
+}
+
+.content-container {
+  background-color: white;
+  width: 80%;
+  max-width: 800px;
+  margin: 80px auto;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative;
+  overflow-y: auto;
+}
+
+.back-arrow {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #00759c;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.song-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.song-button {
+  background-color: white;
+  color: #00759c;
+  border: 2px solid #00759c;
+  border-radius: 8px;
+  padding: 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.song-button:hover {
+  background-color: #00759c;
+  color: white;
+  transform: scale(1.05);
+}

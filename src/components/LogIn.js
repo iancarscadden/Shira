@@ -1,11 +1,27 @@
 // src/components/LogIn.js
-import React, { useEffect, useRef } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import React, { useEffect, useRef, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { auth } from '../firebaseConfig';
+import { signInWithEmailAndPassword } from 'firebase/auth';
+import Navbar from './Navbar';
 import './LogIn.css';
 
 export default function LogIn() {
   const canvasRef = useRef(null);
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [error, setError] = useState(null);
   const navigate = useNavigate();
+
+  const handleLogIn = async (e) => {
+    e.preventDefault();
+    try {
+      await signInWithEmailAndPassword(auth, email, password);
+      navigate('/dashboard');
+    } catch (error) {
+      setError(error.message);
+    }
+  };
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -42,35 +58,16 @@ export default function LogIn() {
   return (
     <div className="login-page">
       <canvas ref={canvasRef} className="background-canvas" />
-
-      {/* Navbar */}
-      <div className="navbar">
-        <Link to="/" className="navbar-brand">
-          LinguaBeats
-        </Link>
-        <div className="buttons">
-          <Link to="/login" className="header-button">
-            Log In
-          </Link>
-          <Link to="/signup" className="header-button">
-            Sign Up
-          </Link>
-        </div>
-      </div>
-
-      {/* Log In Form */}
+      <Navbar />
       <div className="form-container">
         <h1>Log In</h1>
-        <form className="login-form">
+        {error && <p className="error-message">{error}</p>}
+        <form onSubmit={handleLogIn} className="login-form">
           <label htmlFor="email">Email:</label>
-          <input type="email" id="email" name="email" required />
-
+          <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
           <label htmlFor="password">Password:</label>
-          <input type="password" id="password" name="password" required />
-
-          <button type="submit" className="submit-button">
-            Log In
-          </button>
+          <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} required />
+          <button type="submit" className="submit-button">Log In</button>
         </form>
       </div>
     </div>

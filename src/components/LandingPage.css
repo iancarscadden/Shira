@@ -30,41 +30,6 @@ body, html {
   pointer-events: none;
 }
 
-.navbar {
-  background-color: #f0f0f0;
-  height: 60px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 0 20px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 10;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.header-button {
-  text-decoration: none;
-  color: #00759c;
-  font-weight: 600;
-  padding: 10px 20px;
-  margin-left: 10px;
-  border: 1px solid #00759c;
-  border-radius: 5px;
-  background-color: white;
-  transition: background-color 0.3s, color 0.3s, transform 0.3s;
-  cursor: pointer;
-}
-
-.header-button:hover {
-  background-color: #00759c;
-  color: white;
-  transform: scale(1.05);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
 .main-content {
   display: flex;
   flex-direction: column;
@@ -139,13 +104,8 @@ body, html {
     font-size: 1rem;
   }
 
-  .start-button, .header-button {
+  .start-button {
     width: 100%;
     max-width: 300px;
-  }
-
-  .header-button {
-    padding: 6px 12px;
-    font-size: 0.9rem;
   }
 }

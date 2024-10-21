@@ -20,7 +20,7 @@ export default function LyricsView() {
   const [lessons, setLessons] = useState([]);
   const [timestampMapping, setTimestampMapping] = useState({});
   const [currentLesson, setCurrentLesson] = useState(null);
-  const [isAutoplay, setIsAutoplay] = useState(false); // Default to Off
+  const [isAutoplay, setIsAutoplay] = useState(true); // Default to Off
   const [isJumpModalOpen, setIsJumpModalOpen] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);

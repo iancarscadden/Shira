@@ -1,0 +1,133 @@
+{
+  "Hurt": {
+    "lessons": [
+      {
+        "lesson_id": "lesson_1",
+        "phrase_native": "보고 싶은 생각에",
+        "phrase_translation": "When I'm feeling like I want to see you",
+        "context": "In Korean culture, expressing longing for someone is common, especially in K-pop lyrics. The phrase reflects how emotional connections are central in relationships, with feelings often conveyed subtly.",
+        "fill_in_blank": "보고 싶은 생각에 ______.",
+        "fill_in_blank_translation": "When I'm feeling like I want to see you, I ______.",
+        "options_native": ["연락해", "전화를 걸어", "들어간"],
+        "options_translation": ["reach out", "make a call", "go in"],
+        "correct_answer": "들어간",
+        "scenario_question_native": "언제 보고 싶은 생각이 들어?",
+        "scenario_question_translation": "When do you feel like you want to see someone?",
+        "scenario_options_native": [
+          "보고 싶은 생각에 들어간 우리 창에.",
+          "그냥 생각하지 않아.",
+          "가끔 생각해."
+        ],
+        "scenario_options_translation": [
+          "When I miss them, I go into our chat window.",
+          "I just don’t think about it.",
+          "Sometimes I think about it."
+        ],
+        "correct_option": "보고 싶은 생각에 들어간 우리 창에."
+      },
+      {
+        "lesson_id": "lesson_2",
+        "phrase_native": "느린 한마디보다 조용함이 더 좋아",
+        "phrase_translation": "I prefer silence over slow words",
+        "context": "This lyric reflects the cultural value in Korea of 'keeping quiet' rather than dragging out conversations when unnecessary.",
+        "fill_in_blank": "느린 한마디보다 ______ 더 좋아.",
+        "fill_in_blank_translation": "I prefer ______ over slow words.",
+        "options_native": ["조용함이", "대화가", "웃음이"],
+        "options_translation": ["silence", "conversation", "laughter"],
+        "correct_answer": "조용함이",
+        "scenario_question_native": "대화할 때 어떻게 반응해?",
+        "scenario_question_translation": "How do you react during conversations?",
+        "scenario_options_native": [
+          "느린 한마디보다 조용함이 더 좋아.",
+          "항상 말 많이 해.",
+          "대화를 안 해."
+        ],
+        "scenario_options_translation": [
+          "I prefer silence over slow words.",
+          "I always talk a lot.",
+          "I don't talk."
+        ],
+        "correct_option": "느린 한마디보다 조용함이 더 좋아."
+      },
+      {
+        "lesson_id": "lesson_3",
+        "phrase_native": "매일 잠들기 전에 그리고 또 아침에",
+        "phrase_translation": "Every night before bed and again in the morning",
+        "context": "Daily routines are often central to how Koreans express emotions in songs, illustrating the experience of thinking about someone before bed and in the morning.",
+        "fill_in_blank": "매일 잠들기 ______ 그리고 또 아침에.",
+        "fill_in_blank_translation": "Every night ______ and again in the morning.",
+        "options_native": ["전에", "후에", "동안에"],
+        "options_translation": ["before", "after", "during"],
+        "correct_answer": "전에",
+        "scenario_question_native": "매일 아침 뭐해?",
+        "scenario_question_translation": "What do you do every morning?",
+        "scenario_options_native": [
+          "매일 잠들기 전에 그리고 또 아침에 생각해.",
+          "그냥 일어나.",
+          "아침엔 아무것도 안 해."
+        ],
+        "scenario_options_translation": [
+          "Every night before bed and again in the morning, I think.",
+          "I just wake up.",
+          "I don't do anything in the morning."
+        ],
+        "correct_option": "매일 잠들기 전에 그리고 또 아침에 생각해."
+      },
+      {
+        "lesson_id": "lesson_4",
+        "phrase_native": "난 재미없어 게임 같은 건",
+        "phrase_translation": "I'm not into games",
+        "context": "In K-pop lyrics, 'games' symbolize emotional manipulation. This lyric reflects the theme of valuing sincerity over mind games.",
+        "fill_in_blank": "난 ______ 재미없어.",
+        "fill_in_blank_translation": "I'm not into ______.",
+        "options_native": ["게임 같은 건", "영화 보는 건", "대화하는 건"],
+        "options_translation": ["games", "watching movies", "having conversations"],
+        "correct_answer": "게임 같은 건",
+        "scenario_question_native": "왜 게임 같은 건 싫어해?",
+        "scenario_question_translation": "Why don’t you like playing games?",
+        "scenario_options_native": [
+          "난 게임 같은 건 재미없어.",
+          "난 게임을 좋아해.",
+          "그냥 귀찮아."
+        ],
+        "scenario_options_translation": [
+          "I'm not into games.",
+          "I like games.",
+          "It’s just annoying."
+        ],
+        "correct_option": "난 게임 같은 건 재미없어."
+      },
+      {
+        "lesson_id": "lesson_5",
+        "phrase_native": "너 없는 화면인데",
+        "phrase_translation": "It’s a screen without you",
+        "context": "This phrase reflects the emotional disconnect often felt in the digital age, where communication through screens doesn’t fully capture presence.",
+        "fill_in_blank": "너 없는 ______ 인데.",
+        "fill_in_blank_translation": "It’s a ______ without you.",
+        "options_native": ["화면", "대화", "방"],
+        "options_translation": ["screen", "conversation", "room"],
+        "correct_answer": "화면",
+        "scenario_question_native": "화면으로만 대화하는 게 어때?",
+        "scenario_question_translation": "What’s it like communicating only through a screen?",
+        "scenario_options_native": [
+          "너 없는 화면인데 너무 싫어.",
+          "괜찮아, 문제 없어.",
+          "그렇게 나쁘지 않아."
+        ],
+        "scenario_options_translation": [
+          "It’s a screen without you, and I hate it.",
+          "It’s fine, no problem.",
+          "It’s not that bad."
+        ],
+        "correct_option": "너 없는 화면인데 너무 싫어."
+      }
+    ],
+    "timestamp_mapping": {
+      "13": "lesson_1",
+      "29": "lesson_2",
+      "40": "lesson_4",
+      "79": "lesson_3",
+      "86": "lesson_5"
+    }
+  }
+}

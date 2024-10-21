@@ -1,0 +1,133 @@
+{
+  "Dona Maria": {
+    "lessons": [
+      {
+        "lesson_id": "lesson_1",
+        "phrase_native": "Me desculpe vir aqui desse jeito",
+        "phrase_translation": "Sorry for coming here like this",
+        "context": "In Brazilian culture, politeness and respect are highly valued, especially in social interactions. This phrase reflects courtesy in potentially uncomfortable situations.",
+        "fill_in_blank": "Me desculpe vir aqui ______ jeito.",
+        "fill_in_blank_translation": "Sorry for coming here ______.",
+        "options_native": ["desse", "aquele", "outro"],
+        "options_translation": ["like this", "like that", "like another way"],
+        "correct_answer": "desse",
+        "scenario_question_native": "O que você diria se encontrasse alguém inesperadamente?",
+        "scenario_question_translation": "What would you say if you met someone unexpectedly?",
+        "scenario_options_native": [
+          "Me desculpe vir aqui desse jeito.",
+          "Me desculpe falar com você agora.",
+          "Me desculpe sair cedo."
+        ],
+        "scenario_options_translation": [
+          "Sorry for coming here like this.",
+          "Sorry for speaking with you now.",
+          "Sorry for leaving early."
+        ],
+        "correct_option": "Me desculpe vir aqui desse jeito."
+      },
+      {
+        "lesson_id": "lesson_2",
+        "phrase_native": "Dona Maria, deixa eu namorar a sua filha",
+        "phrase_translation": "Mrs. Maria, let me date your daughter",
+        "context": "Respecting elders and asking for permission, especially in relationships, is a traditional value in Brazilian culture.",
+        "fill_in_blank": "Dona Maria, deixa eu ______ a sua filha.",
+        "fill_in_blank_translation": "Mrs. Maria, let me ______ your daughter.",
+        "options_native": ["namorar", "conversar", "sair"],
+        "options_translation": ["date", "talk to", "go out with"],
+        "correct_answer": "namorar",
+        "scenario_question_native": "Como você pediria permissão para namorar alguém?",
+        "scenario_question_translation": "How would you ask permission to date someone?",
+        "scenario_options_native": [
+          "Dona Maria, deixa eu namorar a sua filha.",
+          "Dona Maria, posso sair com sua filha?",
+          "Dona Maria, deixa eu sair mais cedo."
+        ],
+        "scenario_options_translation": [
+          "Mrs. Maria, let me date your daughter.",
+          "Mrs. Maria, can I go out with your daughter?",
+          "Mrs. Maria, let me leave early."
+        ],
+        "correct_option": "Dona Maria, deixa eu namorar a sua filha."
+      },
+      {
+        "lesson_id": "lesson_3",
+        "phrase_native": "Vai me desculpando a ousadia",
+        "phrase_translation": "Excuse me for my boldness",
+        "context": "This phrase expresses humility and politeness, showing awareness of crossing social boundaries, which is important in Brazilian interactions.",
+        "fill_in_blank": "Vai me desculpando a ______.",
+        "fill_in_blank_translation": "Excuse me for my ______.",
+        "options_native": ["ousadia", "gentileza", "bondade"],
+        "options_translation": ["boldness", "kindness", "goodness"],
+        "correct_answer": "ousadia",
+        "scenario_question_native": "O que você diria ao fazer um pedido ousado?",
+        "scenario_question_translation": "What would you say when making a bold request?",
+        "scenario_options_native": [
+          "Vai me desculpando a ousadia.",
+          "Vai me desculpando a tristeza.",
+          "Vai me desculpando a demora."
+        ],
+        "scenario_options_translation": [
+          "Excuse me for my boldness.",
+          "Excuse me for my sadness.",
+          "Excuse me for the delay."
+        ],
+        "correct_option": "Vai me desculpando a ousadia."
+      },
+      {
+        "lesson_id": "lesson_4",
+        "phrase_native": "Essa menina é um desenho no céu",
+        "phrase_translation": "This girl is like a drawing from heaven",
+        "context": "Using poetic expressions to describe beauty is common in Brazil, reflecting the artistic and romantic nature of the culture.",
+        "fill_in_blank": "Essa menina é um ______ no céu.",
+        "fill_in_blank_translation": "This girl is a ______ from heaven.",
+        "options_native": ["desenho", "amor", "sorriso"],
+        "options_translation": ["drawing", "love", "smile"],
+        "correct_answer": "desenho",
+        "scenario_question_native": "Como você descreveria a beleza de alguém?",
+        "scenario_question_translation": "How would you describe someone’s beauty?",
+        "scenario_options_native": [
+          "Essa menina é um desenho no céu.",
+          "Essa menina é muito rápida.",
+          "Essa menina é muito alta."
+        ],
+        "scenario_options_translation": [
+          "This girl is like a drawing from heaven.",
+          "This girl is very fast.",
+          "This girl is very tall."
+        ],
+        "correct_option": "Essa menina é um desenho no céu."
+      },
+      {
+        "lesson_id": "lesson_5",
+        "phrase_native": "Que Deus pintou e jogou fora o pincel",
+        "phrase_translation": "That God painted and threw away the paintbrush",
+        "context": "This humorous phrase expresses that someone is a one-of-a-kind creation, demonstrating Brazilian creativity.",
+        "fill_in_blank": "Que Deus pintou e jogou fora o ______.",
+        "fill_in_blank_translation": "That God painted and threw away the ______.",
+        "options_native": ["pincel", "papel", "quadro"],
+        "options_translation": ["paintbrush", "paper", "painting"],
+        "correct_answer": "pincel",
+        "scenario_question_native": "Como você elogiaria a beleza de alguém usando uma metáfora?",
+        "scenario_question_translation": "How would you compliment someone’s beauty using a metaphor?",
+        "scenario_options_native": [
+          "Que Deus pintou e jogou fora o pincel.",
+          "Que Deus jogou o livro fora.",
+          "Que Deus pintou com tinta vermelha."
+        ],
+        "scenario_options_translation": [
+          "That God painted and threw away the paintbrush.",
+          "That God threw away the book.",
+          "That God painted with red paint."
+        ],
+        "correct_option": "Que Deus pintou e jogou fora o pincel."
+      }
+    ],
+    "timestamp_mapping": {
+      "15": "lesson_1",
+      "42": "lesson_2",
+      "59": "lesson_3",
+      "108": "lesson_5",
+      "154": "lesson_4"
+    }
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "Seoul": {
+    "lessons": [
+      {
+        "lesson_id": "lesson_1",
+        "phrase_native": "이젠 여기가 나의 집인 걸",
+        "phrase_translation": "But this is my home now",
+        "context": "This phrase reflects the bittersweet attachment that people develop toward their environment, especially in a bustling city like Seoul.",
+        "fill_in_blank": "서울에 몇 년을 살았더니, 이젠 여기가 나의 _____인 걸.",
+        "fill_in_blank_translation": "After living in Seoul for a few years, this is now my ____.",
+        "options_native": ["친구", "집", "공원"],
+        "options_translation": ["friend", "home", "park"],
+        "correct_answer": "집",
+        "scenario_question_native": "오랜 시간 살다 보니 그곳이 고향 같나요?",
+        "scenario_question_translation": "Does the place feel like home after living there for so long?",
+        "scenario_options_native": [
+          "네, 이젠 여기가 나의 집인 걸.",
+          "아니요, 아직도 낯설어요."
+        ],
+        "scenario_options_translation": [
+          "Yes, now this is my home.",
+          "No, it still feels unfamiliar."
+        ],
+        "correct_option": "네, 이젠 여기가 나의 집인 걸."
+      },
+      {
+        "lesson_id": "lesson_2",
+        "phrase_native": "사랑과 미움이 같은 말이면",
+        "phrase_translation": "If love and hate are the same words",
+        "context": "In Korean culture, strong emotions like love and hate often blur together, especially when discussing deep connections.",
+        "fill_in_blank": "사랑과 미움이 같은 _____이면, 어떻게 해야 할까요?",
+        "fill_in_blank_translation": "If love and hate are the same ____, what should I do?",
+        "options_native": ["단어", "시간", "느낌"],
+        "options_translation": ["word", "time", "feeling"],
+        "correct_answer": "단어",
+        "scenario_question_native": "사랑과 미움이 같다면, 어떻게 느끼나요?",
+        "scenario_question_translation": "If love and hate are the same, how do you feel?",
+        "scenario_options_native": [
+          "정말 복잡해요, 사랑과 미움이 같은 말이면요.",
+          "저는 사랑과 미움이 완전히 다르다고 생각해요."
+        ],
+        "scenario_options_translation": [
+          "It's really complicated if love and hate are the same words.",
+          "I think love and hate are completely different."
+        ],
+        "correct_option": "정말 복잡해요, 사랑과 미움이 같은 말이면요."
+      },
+      {
+        "lesson_id": "lesson_3",
+        "phrase_native": "가만 있어도 풍경이 바뀌는 bus와",
+        "phrase_translation": "Buses with changing landscapes even when I'm sitting still",
+        "context": "This lyric highlights the constant movement of city life, reflecting the fast-paced nature of urban environments.",
+        "fill_in_blank": "서울에서는 가만히 있어도 ______이 바뀌어요.",
+        "fill_in_blank_translation": "In Seoul, even if you stay still, the ____ changes.",
+        "options_native": ["날씨", "풍경", "기분"],
+        "options_translation": ["weather", "landscape", "mood"],
+        "correct_answer": "풍경",
+        "scenario_question_native": "서울에서 가장 인상 깊은 점은 무엇인가요?",
+        "scenario_question_translation": "What is the most impressive thing about Seoul?",
+        "scenario_options_native": [
+          "가만히 있어도 풍경이 바뀌는 게 인상 깊어요.",
+          "너무 붐비고 복잡해요."
+        ],
+        "scenario_options_translation": [
+          "The changing landscape, even when I'm sitting still, is impressive.",
+          "It’s too crowded and complicated."
+        ],
+        "correct_option": "가만히 있어도 풍경이 바뀌는 게 인상 깊어요."
+      },
+      {
+        "lesson_id": "lesson_4",
+        "phrase_native": "이미 너의 일부가 돼버렸거든",
+        "phrase_translation": "I've already become a part of you",
+        "context": "This phrase expresses a deep connection with Seoul, where the city becomes a part of one's identity.",
+        "fill_in_blank": "오랜 시간 서울에 살다 보니 이제는 나도 이 도시의 _____가 된 것 같아.",
+        "fill_in_blank_translation": "After living in Seoul for a long time, I feel like I’ve become part of this ____.",
+        "options_native": ["일부", "사람", "기억"],
+        "options_translation": ["part", "person", "memory"],
+        "correct_answer": "일부",
+        "scenario_question_native": "그 도시에서 살면 사람도 변하나요?",
+        "scenario_question_translation": "Do people change when they live in that city?",
+        "scenario_options_native": [
+          "네, 이미 그 도시의 일부가 돼버린 것 같아요.",
+          "아니요, 저는 제 자신을 잃지 않았어요."
+        ],
+        "scenario_options_translation": [
+          "Yes, I feel like I've already become a part of the city.",
+          "No, I haven’t lost myself."
+        ],
+        "correct_option": "네, 이미 그 도시의 일부가 돼버린 것 같아요."
+      },
+      {
+        "lesson_id": "lesson_5",
+        "phrase_native": "난 너의 매연과 그 역겨움까지도 사랑해",
+        "phrase_translation": "I already love even your fumes and the nastiness",
+        "context": "This lyric reflects the love-hate relationship with cities like Seoul, where even the negatives become endearing.",
+        "fill_in_blank": "서울의 매연과 혼잡함도 _____할 수 있어요.",
+        "fill_in_blank_translation": "I can even ____ the fumes and chaos of Seoul.",
+        "options_native": ["견딜", "사랑할", "피할"],
+        "options_translation": ["endure", "love", "avoid"],
+        "correct_answer": "사랑할",
+        "scenario_question_native": "그 도시의 단점도 사랑할 수 있나요?",
+        "scenario_question_translation": "Can you love even the negatives of that city?",
+        "scenario_options_native": [
+          "네, 난 그 도시의 매연과 역겨움까지도 사랑해요.",
+          "아니요, 단점 때문에 더 힘들어요."
+        ],
+        "scenario_options_translation": [
+          "Yes, I love even the fumes and nastiness of the city.",
+          "No, the negatives make it harder."
+        ],
+        "correct_option": "네, 난 그 도시의 매연과 역겨움까지도 사랑해요."
+      }
+    ],
+    "timestamp_mapping": {
+      "43": "lesson_1",
+      "67": "lesson_4",
+      "79": "lesson_2",
+      "127": "lesson_3",
+      "165": "lesson_5"
+    }
+  }
+}

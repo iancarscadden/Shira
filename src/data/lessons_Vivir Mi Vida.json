@@ -1,0 +1,133 @@
+{
+  "Vivir Mi Vida": {
+    "lessons": [
+      {
+        "lesson_id": "lesson_1",
+        "phrase_native": "Voy a reír, voy a bailar",
+        "phrase_translation": "I’m going to laugh, I’m going to dance",
+        "context": "In Latin American culture, dancing and laughter are essential parts of social life, representing joy and celebration in both good and difficult times.",
+        "fill_in_blank": "Este fin de semana, voy a ______ y voy a ______.",
+        "fill_in_blank_translation": "This weekend, I’m going to ______ and I’m going to ______.",
+        "options_native": ["bailar", "llorar", "reír"],
+        "options_translation": ["dance", "cry", "laugh"],
+        "correct_answer": "reír",
+        "scenario_question_native": "¿Qué vas a hacer este fin de semana?",
+        "scenario_question_translation": "What are you going to do this weekend?",
+        "scenario_options_native": [
+          "Voy a quedarme en casa.",
+          "Voy a reír y voy a bailar.",
+          "No tengo planes."
+        ],
+        "scenario_options_translation": [
+          "I’m going to stay home.",
+          "I’m going to laugh and dance.",
+          "I don’t have plans."
+        ],
+        "correct_option": "Voy a reír y voy a bailar."
+      },
+      {
+        "lesson_id": "lesson_2",
+        "phrase_native": "Vivir mi vida",
+        "phrase_translation": "Live my life",
+        "context": "This phrase reflects the cultural emphasis on enjoying life and living in the present, a common theme in Latin music and celebrations.",
+        "fill_in_blank": "Voy a ______ mi vida.",
+        "fill_in_blank_translation": "I’m going to ______ my life.",
+        "options_native": ["olvidar", "vivir", "estudiar"],
+        "options_translation": ["forget", "live", "study"],
+        "correct_answer": "vivir",
+        "scenario_question_native": "¿Qué piensas hacer después de todos tus problemas?",
+        "scenario_question_translation": "What do you plan to do after all your problems?",
+        "scenario_options_native": [
+          "Voy a olvidar todo.",
+          "Voy a vivir mi vida.",
+          "No sé qué hacer."
+        ],
+        "scenario_options_translation": [
+          "I’m going to forget everything.",
+          "I’m going to live my life.",
+          "I don’t know what to do."
+        ],
+        "correct_option": "Voy a vivir mi vida."
+      },
+      {
+        "lesson_id": "lesson_3",
+        "phrase_native": "Para qué llorar, ¿pa’ qué?",
+        "phrase_translation": "Why cry, for what?",
+        "context": "This phrase reflects the cultural value of resilience in Latin American communities, encouraging people to stay positive and not dwell on difficulties.",
+        "fill_in_blank": "Tuve un mal día, pero ______ llorar, ¿pa’ qué?",
+        "fill_in_blank_translation": "I had a bad day, but ______ to cry, for what?",
+        "options_native": ["quiero", "para qué", "siempre"],
+        "options_translation": ["I want", "why", "always"],
+        "correct_answer": "para qué",
+        "scenario_question_native": "¿Qué le dirías para que se sienta mejor?",
+        "scenario_question_translation": "What would you say to make them feel better?",
+        "scenario_options_native": [
+          "Todo está mal.",
+          "Para qué llorar, ¿pa’ qué?",
+          "Es normal sentirse mal."
+        ],
+        "scenario_options_translation": [
+          "Everything is wrong.",
+          "Why cry, for what?",
+          "It’s normal to feel bad."
+        ],
+        "correct_option": "Para qué llorar, ¿pa’ qué?"
+      },
+      {
+        "lesson_id": "lesson_4",
+        "phrase_native": "Voy a vivir el momento",
+        "phrase_translation": "I’m going to live the moment",
+        "context": "Latin American music often celebrates living in the moment and enjoying life as it comes, especially through dancing and celebrations.",
+        "fill_in_blank": "Este año, voy a ______ el momento.",
+        "fill_in_blank_translation": "This year, I’m going to ______ the moment.",
+        "options_native": ["perder", "vivir", "olvidar"],
+        "options_translation": ["lose", "live", "forget"],
+        "correct_answer": "vivir",
+        "scenario_question_native": "¿Qué piensas hacer este año?",
+        "scenario_question_translation": "What do you plan to do this year?",
+        "scenario_options_native": [
+          "Voy a olvidar el pasado.",
+          "Voy a vivir el momento.",
+          "No tengo metas."
+        ],
+        "scenario_options_translation": [
+          "I’m going to forget the past.",
+          "I’m going to live the moment.",
+          "I don’t have goals."
+        ],
+        "correct_option": "Voy a vivir el momento."
+      },
+      {
+        "lesson_id": "lesson_5",
+        "phrase_native": "Siempre pa’lante, no mires pa’trás",
+        "phrase_translation": "Always forward, don’t look back",
+        "context": "This phrase reflects the resilient and forward-looking attitude in Latin American culture, encouraging people to keep moving forward and not dwell on past struggles.",
+        "fill_in_blank": "Siempre pa’_______, no mires ________.",
+        "fill_in_blank_translation": "Always ________, don’t look back.",
+        "options_native": ["pa’trás", "arriba", "lante"],
+        "options_translation": ["back", "up", "forward"],
+        "correct_answer": "lante",
+        "scenario_question_native": "¿Qué me aconsejas después de todo lo que pasó?",
+        "scenario_question_translation": "What do you advise me after everything that happened?",
+        "scenario_options_native": [
+          "Siempre pa’lante, no mires pa’trás.",
+          "Todo estará bien.",
+          "No puedo ayudarte."
+        ],
+        "scenario_options_translation": [
+          "Always forward, don’t look back.",
+          "Everything will be fine.",
+          "I can’t help you."
+        ],
+        "correct_option": "Siempre pa’lante, no mires pa’trás."
+      }
+    ],
+    "timestamp_mapping": {
+      "19": "lesson_1",
+      "33": "lesson_2",
+      "110": "lesson_4",
+      "128": "lesson_3",
+      "208": "lesson_5"
+    }
+  }
+}

@@ -1,17 +1,17 @@
+/* src/components/Dashboard.css */
 
-
-/* Page Styles (Dashboard.css) */
+/* Page Styling */
 .dashboard-page {
   position: relative;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh; /* Allows the page to expand based on content */
   background-color: #00759c;
   overflow: hidden;
 }
 
 /* Background Canvas */
 .background-canvas {
-  position: absolute;
+  position: fixed; /* Ensures the canvas covers the entire viewport */
   top: 0;
   left: 0;
   width: 100%;
@@ -20,53 +20,19 @@
   pointer-events: none;
 }
 
-/* Navbar */
-.navbar {
-  background-color: #f0f0f0;
-  height: 60px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.navbar-brand {
-  font-weight: bold;
-  font-size: 1.5rem;
-  color: #00759c;
-}
-
-/* Account Button */
-.account-button {
-  background-color: white;
-  color: #00759c;
-  border: 2px solid #00759c;
-  border-radius: 5px;
-  padding: 10px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.3s, transform 0.3s;
-}
-
-.account-button:hover {
-  background-color: #00759c;
-  color: white;
-  transform: scale(1.05);
-}
-
-/* Content Container */
+/* Content Container Positioned Near Top */
 .content-container {
+  position: relative;
   background-color: white;
   width: 80%;
   max-width: 800px;
-  margin: 80px auto;
+  margin: 50px auto;
   padding: 40px;
   border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   text-align: center;
-  position: relative;
   z-index: 1;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow-y: auto;
 }
 
 /* Welcome Text */
@@ -82,7 +48,7 @@
   margin-bottom: 20px;
 }
 
-/* Language Selection */
+/* Language Selection Section */
 .language-selection p {
   font-size: 1.2rem;
   margin-bottom: 10px;
@@ -113,6 +79,56 @@
   transform: scale(1.05);
 }
 
+/* Support Section */
+.support-message {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.support-text {
+  font-size: 0.9rem; /* Smaller font size */
+  color: #333;
+  margin: 5px 0;
+}
+
+/* Action Buttons Section */
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between buttons */
+  margin-top: 20px;
+}
+
+/* Support Button Styling */
+.support-button {
+  padding: 12px 24px;
+  background-color: #28a745; /* Green color for Support Us! */
+  color: white;
+  border: none;
+  border-radius: 8px; /* Rounded corners */
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.support-button:hover {
+  background-color: #218838; /* Darker green on hover */
+  transform: scale(1.05);
+}
+
+/* Proverb Text Styling */
+.proverb-text {
+  text-align: center;
+  color: white;
+  /* Removed bold styling */
+  font-size: 0.9rem; /* Reduced font size */
+  position: absolute; /* Positioning at the bottom */
+  bottom: 20px; /* Space from the bottom */
+  left: 50%;
+  transform: translateX(-50%); /* Center horizontally */
+  width: 90%; /* Optional: Limit the width */
+}
+
 /* Pop-up Overlay */
 .popup-overlay {
   position: fixed;
@@ -134,11 +150,11 @@
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  position: relative;
   text-align: center;
+  position: relative;
 }
 
-/* Close Button */
+/* Close Button Inside Pop-up */
 .close-button {
   background: none;
   border: none;
@@ -151,7 +167,24 @@
   cursor: pointer;
 }
 
-/* Pop-up Sign Out Button */
+/* Your Account Button - Rectangular Styling */
+.account-button {
+  background-color: #00759c;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 5px; /* Rectangular look */
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.account-button:hover {
+  background-color: #005f80;
+  transform: scale(1.05);
+}
+
+/* Sign Out Button Inside Pop-up */
 .popup-signout-button {
   background-color: #00759c;
   color: white;

@@ -1,0 +1,135 @@
+{
+  "Je Veux": {
+    "lessons": [
+      {
+        "lesson_id": "lesson_1",
+        "phrase_native": "Offrez-moi la Tour Eiffel, j'en ferais quoi",
+        "phrase_translation": "Buy me the Eiffel Tower, what would I do with that",
+        "context": "This lyric critiques materialism, using the grand image of the Eiffel Tower to emphasize that lavish gifts are meaningless to the singer. She values personal connection over extravagance, rejecting society's obsession with luxury.",
+        "fill_in_blank": "Offrez-moi la Tour ______, j'en ferais quoi.",
+        "fill_in_blank_translation": "Buy me the Tower ______, what would I do with that.",
+        "options_native": ["Eiffel", "grande", "belle"],
+        "options_translation": ["Eiffel", "big", "beautiful"],
+        "correct_answer": "Eiffel",
+        "scenario_question_native": "Qu'est-ce que tu veux acheter ?",
+        "scenario_question_translation": "What do you want to buy?",
+        "scenario_options_native": [
+          "Je veux acheter une grande maison.",
+          "Je veux acheter un bon dîner.",
+          "Offrez-moi la Tour Eiffel, j'en ferais quoi.",
+          "Je ne veux rien acheter."
+        ],
+        "scenario_options_translation": [
+          "I want to buy a big house.",
+          "I want to buy a nice dinner.",
+          "Buy me the Eiffel Tower, what would I do with that?",
+          "I don't want to buy anything."
+        ],
+        "correct_option": "Offrez-moi la Tour Eiffel, j'en ferais quoi."
+      },
+      {
+        "lesson_id": "lesson_2",
+        "phrase_native": "Je veux d'l'amour, d'la joie, de la bonne humeur",
+        "phrase_translation": "I want love, joy, and cheerfulness",
+        "context": "This phrase reflects a quintessential French approach to life—prioritizing emotional fulfillment over material wealth. In 'Je Veux,' ZAZ rejects materialism in favor of simple pleasures like love, joy, and positivity, echoing the French cultural ideal of joie de vivre.",
+        "fill_in_blank": "Je veux d'l'amour, d'la joie, et de la ______.",
+        "fill_in_blank_translation": "I want love, joy, and ______.",
+        "options_native": ["richesse", "tristesse", "bonne humeur"],
+        "options_translation": ["wealth", "sadness", "cheerfulness"],
+        "correct_answer": "bonne humeur",
+        "scenario_question_native": "Qu'est-ce que tu veux dans la vie ?",
+        "scenario_question_translation": "What do you want in life?",
+        "scenario_options_native": [
+          "Je veux d'l'amour, d'la joie, et de la bonne humeur.",
+          "Je veux de l'argent et des voitures.",
+          "Je veux être seul."
+        ],
+        "scenario_options_translation": [
+          "I want love, joy, and cheerfulness.",
+          "I want money and cars.",
+          "I want to be alone."
+        ],
+        "correct_option": "Je veux d'l'amour, d'la joie, et de la bonne humeur."
+      },
+      {
+        "lesson_id": "lesson_3",
+        "phrase_native": "Je parle fort et je suis franche, excusez-moi",
+        "phrase_translation": "I'm loud and straightforward, pardon me",
+        "context": "This line reflects French cultural values of honesty and directness, particularly in social conversations. In France, being straightforward is often appreciated, though it might be considered impolite in some other cultures.",
+        "fill_in_blank": "Je parle fort et je suis ______, excusez-moi.",
+        "fill_in_blank_translation": "I'm loud and ______, pardon me.",
+        "options_native": ["gentille", "franche", "triste"],
+        "options_translation": ["kind", "straightforward", "sad"],
+        "correct_answer": "franche",
+        "scenario_question_native": "Pourquoi es-tu si direct(e) ?",
+        "scenario_question_translation": "Why are you being so blunt?",
+        "scenario_options_native": [
+          "Je parle fort et je suis franche, excusez-moi.",
+          "Je parle doucement et je suis gentille.",
+          "Je suis toujours silencieuse."
+        ],
+        "scenario_options_translation": [
+          "I'm loud and straightforward, pardon me.",
+          "I speak softly, and I am kind.",
+          "I am always quiet."
+        ],
+        "correct_option": "Je parle fort et je suis franche, excusez-moi."
+      },
+      {
+        "lesson_id": "lesson_4",
+        "phrase_native": "C'n'est pas votre argent qui f'ra mon bonheur",
+        "phrase_translation": "Your money won’t buy my happiness",
+        "context": "This phrase rejects materialism and the idea that happiness is tied to wealth. ZAZ emphasizes that love, joy, and connection, not money, are the keys to happiness, resonating with a broader French cultural critique of consumerism.",
+        "fill_in_blank": "C'n'est pas votre argent qui ______ mon bonheur.",
+        "fill_in_blank_translation": "Your money won't ______ my happiness.",
+        "options_native": ["rend", "f'ra", "donne"],
+        "options_translation": ["make", "buy", "give"],
+        "correct_answer": "f'ra",
+        "scenario_question_native": "Est-ce que l'argent rend heureux ?",
+        "scenario_question_translation": "Does money make you happy?",
+        "scenario_options_native": [
+          "C'n'est pas votre argent qui f'ra mon bonheur.",
+          "Oui, l'argent fait le bonheur.",
+          "Ça dépend de combien."
+        ],
+        "scenario_options_translation": [
+          "Your money won’t buy my happiness.",
+          "Yes, money brings happiness.",
+          "It depends on how much."
+        ],
+        "correct_option": "C'n'est pas votre argent qui f'ra mon bonheur."
+      },
+      {
+        "lesson_id": "lesson_5",
+        "phrase_native": "Bienvenue dans ma réalité",
+        "phrase_translation": "Welcome to my reality",
+        "context": "This phrase invites the listener into ZAZ’s perspective—one that values emotional richness and simple living over materialism. In French culture, this reflects a common theme of embracing one’s individual truth and rejecting societal pressures.",
+        "fill_in_blank": "Bienvenue dans ma ______.",
+        "fill_in_blank_translation": "Welcome to my ______.",
+        "options_native": ["maison", "réalité", "voiture"],
+        "options_translation": ["house", "reality", "car"],
+        "correct_answer": "réalité",
+        "scenario_question_native": "Pourquoi tu vis comme ça ?",
+        "scenario_question_translation": "Why do you live like that?",
+        "scenario_options_native": [
+          "Bienvenue dans ma réalité.",
+          "Je ne sais pas.",
+          "C'est la seule option."
+        ],
+        "scenario_options_translation": [
+          "Welcome to my reality.",
+          "I don’t know.",
+          "It’s the only option."
+        ],
+        "correct_option": "Bienvenue dans ma réalité."
+      }
+    ],
+    "timestamp_mapping": {
+      "32": "lesson_1",
+      "44": "lesson_2",
+      "78": "lesson_3",
+      "106": "lesson_4",
+      "171": "lesson_5"
+    }
+  }
+}

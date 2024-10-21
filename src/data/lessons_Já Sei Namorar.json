@@ -1,0 +1,134 @@
+{
+  "Já Sei Namorar": {
+    "lessons": [
+      {
+        "lesson_id": "lesson_1",
+        "phrase_native": "Já sei namorar",
+        "phrase_translation": "I already know how to love",
+        "context": "This phrase reflects a sense of self-awareness and experience in love, a theme common in Brazilian popular music.",
+        "fill_in_blank": "Agora __ ____ namorar.",
+        "fill_in_blank_translation": "Now __ ____ to love.",
+        "options_native": ["já sei", "quero", "vou"],
+        "options_translation": ["I already know", "I want", "I will"],
+        "correct_answer": "já sei",
+        "scenario_question_native": "Como você responderia sobre sua experiência em relacionamentos?",
+        "scenario_question_translation": "How would you respond about your experience in relationships?",
+        "scenario_options_native": [
+          "Já sei namorar.",
+          "Eu nunca namorei.",
+          "Estou aprendendo a amar."
+        ],
+        "scenario_options_translation": [
+          "I already know how to love.",
+          "I have never been in a relationship.",
+          "I am learning to love."
+        ],
+        "correct_option": "Já sei namorar."
+      },
+      {
+
+        "lesson_id": "lesson_2",
+        "phrase_native": "Eu sou de ninguém, eu sou de todo mundo",
+        "phrase_translation": "I belong to no one, I belong to the whole world",
+        "context": "This lyric captures the Brazilian emphasis on individuality and freedom.",
+        "fill_in_blank": "Eu sou de ________, eu sou de ________.",
+        "fill_in_blank_translation": "I belong to ________, I belong to ________.",
+        "options_native": ["ninguém", "todo mundo", "alguém", "ninguém"],
+        "options_translation": ["no one", "the whole world", "someone", "no one"],
+        "correct_answer": ["ninguém", "todo mundo"],
+        "scenario_question_native": "Qual é a sua opinião sobre liberdade pessoal?",
+        "scenario_question_translation": "What’s your view on personal freedom?",
+        "scenario_options_native": [
+          "Eu sou de ninguém, eu sou de todo mundo.",
+          "Eu sou de alguém.",
+          "Eu não quero ninguém."
+        ],
+        "scenario_options_translation": [
+          "I belong to no one, I belong to the whole world.",
+          "I belong to someone.",
+          "I don't want anyone."
+        ],
+        "correct_option": "Eu sou de ninguém, eu sou de todo mundo."
+      },
+      {
+        "lesson_id": "lesson_3",
+        "phrase_native": "Agora só me resta sonhar",
+        "phrase_translation": "Now all that's left for me is to dream",
+        "context": "This phrase conveys the feeling of hope or longing for something better.",
+        "fill_in_blank": "Agora só me ______ sonhar.",
+        "fill_in_blank_translation": "Now all that's left for me is to ______.",
+        "options_native": ["quero", "resta", "posso"],
+        "options_translation": ["want", "left", "can"],
+        "correct_answer": "resta",
+        "scenario_question_native": "Quais são seus planos agora?",
+        "scenario_question_translation": "What are you going to do now?",
+        "scenario_options_native": [
+          "Agora só me resta sonhar.",
+          "Agora só me resta dormir.",
+          "Agora só me resta trabalhar."
+        ],
+        "scenario_options_translation": [
+          "Now all that's left for me is to dream.",
+          "Now all that's left for me is to sleep.",
+          "Now all that's left for me is to work."
+        ],
+        "correct_option": "Agora só me resta sonhar."
+      },
+      {
+        "lesson_id": "lesson_4",
+        "phrase_native": "All I want is to be happy",
+        "phrase_translation": "Eu quero é ser feliz",
+        "context": "This phrase echoes the desire for simple joys, reflective of Brazilian values.",
+        "fill_in_blank": "Eu _______ é ser feliz.",
+        "fill_in_blank_translation": "All I _______ is to be happy.",
+        "options_native": ["quero", "posso", "preciso"],
+        "options_translation": ["want", "can", "need"],
+        "correct_answer": "quero",
+        "scenario_question_native": "Qual é seu principal objetivo na vida?",
+        "scenario_question_translation": "What’s your main goal in life?",
+        "scenario_options_native": [
+          "Eu quero é ser feliz.",
+          "Eu quero é ganhar dinheiro.",
+          "Eu quero é viajar o mundo."
+        ],
+        "scenario_options_translation": [
+          "All I want is to be happy.",
+          "All I want is to make money.",
+          "All I want is to travel the world."
+        ],
+        "correct_option": "Eu quero é ser feliz."
+      },
+      {
+        "lesson_id": "lesson_5",
+        "phrase_native": "Tô te querendo como ninguém",
+        "phrase_translation": "I'm desiring you like no one else",
+        "context": "This lyric captures intense feelings of longing, a hallmark of Brazilian romantic music.",
+        "fill_in_blank": "Tô te querendo como ______.",
+        "fill_in_blank_translation": "I'm desiring you like ______.",
+        "options_native": ["ninguém", "alguém", "todo mundo"],
+        "options_translation": ["no one", "someone", "everyone"],
+        "correct_answer": "ninguém",
+        "scenario_question_native": "Como você expressa seus sentimentos por alguém?",
+        "scenario_question_translation": "How do you express your feelings for someone?",
+        "scenario_options_native": [
+          "Tô te querendo como ninguém.",
+          "Tô te querendo como todo mundo.",
+          "Não estou interessado."
+        ],
+        "scenario_options_translation": [
+          "I'm desiring you like no one else.",
+          "I'm desiring you like everyone else.",
+          "I’m not interested."
+        ],
+        "correct_option": "Tô te querendo como ninguém."
+      }
+    ],
+    "timestamp_mapping": {
+      "31": "lesson_1",
+      "34": "lesson_3",
+      "50": "lesson_2",
+      "88": "lesson_4",
+      "121": "lesson_5"
+    }
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "Te Quiero Pa’ Mí": {
+    "lessons": [
+      {
+        "lesson_id": "lesson_1",
+        "phrase_native": "Hagamos esto realidad",
+        "phrase_translation": "Let’s make this a reality",
+        "context": "This phrase is commonly used in romantic or goal-driven conversations in Latin American culture, reflecting the desire to make dreams or plans come true.",
+        "fill_in_blank": "________ esto realidad.",
+        "fill_in_blank_translation": "________ make this a reality.",
+        "options_native": ["Dejemos", "Olvidemos", "Hagamos"],
+        "options_translation": ["Let’s leave", "Let’s forget", "Let’s make"],
+        "correct_answer": "Hagamos",
+        "scenario_question_native": "¿Cómo le dices a tu amigo que quieres hacer el plan realidad?",
+        "scenario_question_translation": "How do you tell your friend you want to make the plan a reality?",
+        "scenario_options_native": [
+          "No lo quiero hacer.",
+          "Hagamos esto realidad.",
+          "Tal vez otro día."
+        ],
+        "scenario_options_translation": [
+          "I don’t want to do it.",
+          "Let’s make this a reality.",
+          "Maybe another day."
+        ],
+        "correct_option": "Hagamos esto realidad."
+      },
+      {
+        "lesson_id": "lesson_2",
+        "phrase_native": "Si me deseas, como te deseo",
+        "phrase_translation": "If you desire me, like I desire you",
+        "context": "This phrase reflects the theme of mutual attraction, which is a central element in Latin romantic songs, especially reggaeton and salsa.",
+        "fill_in_blank": "Si me ________, como te ________.",
+        "fill_in_blank_translation": "If you ______ me, like I ______ you.",
+        "options_native": ["deseas", "amas", "ayudas", "deseo", "ayudo", "amo"],
+        "options_translation": ["desire", "love", "help", "desire", "help", "love"],
+        "correct_answer": "deseas",
+        "scenario_question_native": "¿Cómo expresas que el deseo es mutuo entre tú y alguien más?",
+        "scenario_question_translation": "How do you express that the desire is mutual between you and someone else?",
+        "scenario_options_native": [
+          "No sé qué quiero.",
+          "Si me deseas, como te deseo.",
+          "Si no te veo, no me importa."
+        ],
+        "scenario_options_translation": [
+          "I don’t know what I want.",
+          "If you desire me, like I desire you.",
+          "If I don’t see you, I don’t care."
+        ],
+        "correct_option": "Si me deseas, como te deseo."
+      },
+      {
+        "lesson_id": "lesson_3",
+        "phrase_native": "Tu hermoso cuerpo pide candela",
+        "phrase_translation": "Your beautiful body asks for fire",
+        "context": "In Latin American music, “candela” often represents energy or passion, commonly used to describe physical attraction, especially in dance settings.",
+        "fill_in_blank": "Tu _______ cuerpo pide ________.",
+        "fill_in_blank_translation": "Your _______ body asks for ________.",
+        "options_native": ["hermoso", "cansada", "candela"],
+        "options_translation": ["beautiful", "tired", "fire"],
+        "correct_answer": "hermoso",
+        "scenario_question_native": "¿Cómo le dices a alguien que su forma de bailar es apasionada?",
+        "scenario_question_translation": "How do you tell someone that their way of dancing is full of passion?",
+        "scenario_options_native": [
+          "No sabes bailar.",
+          "Tu hermoso cuerpo pide candela.",
+          "Me gusta tu forma de bailar."
+        ],
+        "scenario_options_translation": [
+          "You don’t know how to dance.",
+          "Your beautiful body asks for fire.",
+          "I like the way you dance."
+        ],
+        "correct_option": "Tu hermoso cuerpo pide candela."
+      },
+      {
+        "lesson_id": "lesson_4",
+        "phrase_native": "Te quiero solita pa’ mí",
+        "phrase_translation": "I want you just for me",
+        "context": "This phrase reflects the romantic and passionate language common in reggaeton, where emotions of exclusivity and affection are often expressed in relationships.",
+        "fill_in_blank": "Te quiero _______ pa’ mí.",
+        "fill_in_blank_translation": "I want you _______ for me.",
+        "options_native": ["solita", "cansada", "solito"],
+        "options_translation": ["just for me", "tired", "just for me"],
+        "correct_answer": "solita",
+        "scenario_question_native": "¿Cómo le dices a tu pareja que la quieres solo para ti?",
+        "scenario_question_translation": "How do you tell your partner you want them just for yourself?",
+        "scenario_options_native": [
+          "Te quiero solita pa’ mí.",
+          "No me importa.",
+          "No quiero verte."
+        ],
+        "scenario_options_translation": [
+          "I want you just for me.",
+          "I don’t care.",
+          "I don’t want to see you."
+        ],
+        "correct_option": "Te quiero solita pa’ mí."
+      },
+      {
+        "lesson_id": "lesson_5",
+        "phrase_native": "Confieso que me gustas",
+        "phrase_translation": "I confess that I like you",
+        "context": "Openly expressing romantic interest is common in Latin music and culture, with songs often focusing on confessions of love or attraction.",
+        "fill_in_blank": "Confieso que ______ gustas.",
+        "fill_in_blank_translation": "I confess that ______ like you.",
+        "options_native": ["me", "te", "le"],
+        "options_translation": ["me", "you", "him/her"],
+        "correct_answer": "me",
+        "scenario_question_native": "¿Cómo le confiesas a alguien que te gusta?",
+        "scenario_question_translation": "How do you confess to someone that you like them?",
+        "scenario_options_native": [
+          "Confieso que me gustas.",
+          "Es normal sentirse mal.",
+          "Todo está mal."
+        ],
+        "scenario_options_translation": [
+          "I confess that I like you.",
+          "It’s normal to feel bad.",
+          "Everything is wrong."
+        ],
+        "correct_option": "Confieso que me gustas."
+      }
+    ],
+    "timestamp_mapping": {
+      "21": "lesson_1",
+      "82": "lesson_2",
+      "87": "lesson_3",
+      "124": "lesson_4",
+      "157": "lesson_5"
+    }
+  }
+}

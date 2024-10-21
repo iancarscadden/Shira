@@ -1,0 +1,133 @@
+{
+  "Ghareeb Alay": {
+    "lessons": [
+      {
+        "lesson_id": "lesson_1",
+        "phrase_native": "قصتنا بلشت لما كنا صغار",
+        "phrase_translation": "Our story started when we were kids",
+        "context": "Reminiscing about childhood is common in Arabic conversations and songs, evoking feelings of nostalgia and innocence.",
+        "fill_in_blank": "قصتنا بلشت لما كنا ____",
+        "fill_in_blank_translation": "Our story started when we were ____.",
+        "options_native": ["صغار", "كبار", "تعبنا"],
+        "options_translation": ["kids", "adults", "tired"],
+        "correct_answer": "صغار",
+        "scenario_question_native": "متى بدأت قصتكم؟",
+        "scenario_question_translation": "When did your story begin?",
+        "scenario_options_native": [
+          "قصتنا بلشت لما كنا صغار.",
+          "لا أتذكر.",
+          "قبل عدة سنوات."
+        ],
+        "scenario_options_translation": [
+          "Our story started when we were kids.",
+          "I don’t remember.",
+          "A few years ago."
+        ],
+        "correct_option": "قصتنا بلشت لما كنا صغار."
+      },
+      {
+        "lesson_id": "lesson_2",
+        "phrase_native": "أنت دايما اللي محتار",
+        "phrase_translation": "You are always the one who’s confused",
+        "context": "Calling someone 'محتار' (confused) can be used playfully or seriously, depending on the context, and often points out indecisiveness.",
+        "fill_in_blank": "أنت دايما اللي ____ محتار",
+        "fill_in_blank_translation": "You are always the one who is ____ confused.",
+        "options_native": ["دايما", "أحيانا", "مشغول"],
+        "options_translation": ["always", "sometimes", "busy"],
+        "correct_answer": "دايما",
+        "scenario_question_native": "لماذا أنت دائما محتار؟",
+        "scenario_question_translation": "Why are you always confused?",
+        "scenario_options_native": [
+          "أنت دايما اللي محتار.",
+          "أنت حاسم دائما.",
+          "أنا أيضا محتار."
+        ],
+        "scenario_options_translation": [
+          "You are always the one who’s confused.",
+          "You are always decisive.",
+          "I’m also confused."
+        ],
+        "correct_option": "أنت دايما اللي محتار."
+      },
+      {
+        "lesson_id": "lesson_3",
+        "phrase_native": "أنت ليا",
+        "phrase_translation": "You are mine",
+        "context": "Phrases like 'أنت ليا' (You are mine) are used in Arabic music to express affection and emotional attachment in romantic contexts.",
+        "fill_in_blank": "أنت ____",
+        "fill_in_blank_translation": "You are ____.",
+        "options_native": ["ليا", "بعيد", "قريب"],
+        "options_translation": ["mine", "distant", "close"],
+        "correct_answer": "ليا",
+        "scenario_question_native": "كيف تخبر شريكك أنك مرتبط به؟",
+        "scenario_question_translation": "How do you tell your partner that you are emotionally attached to them?",
+        "scenario_options_native": [
+          "أنت ليا.",
+          "أنا لست مهتما.",
+          "أنت بعيد عني."
+        ],
+        "scenario_options_translation": [
+          "You are mine.",
+          "I’m not interested.",
+          "You are distant from me."
+        ],
+        "correct_option": "أنت ليا."
+      },
+      {
+        "lesson_id": "lesson_4",
+        "phrase_native": "قلبي فلسطيني وما نبيعش القضية",
+        "phrase_translation": "My heart is Palestinian, and I will never sell out the cause",
+        "context": "Expressing loyalty to the Palestinian cause is common in Arabic music, particularly in songs that emphasize political and emotional solidarity.",
+        "fill_in_blank": "قلبي فلسطيني وما نبيعش ____",
+        "fill_in_blank_translation": "My heart is Palestinian, and I will never sell out ____.",
+        "options_native": ["القضية", "الأرض", "المدينة"],
+        "options_translation": ["the cause", "the land", "the city"],
+        "correct_answer": "القضية",
+        "scenario_question_native": "كيف تعبر عن دعمك للقضية الفلسطينية؟",
+        "scenario_question_translation": "How do you express your support for the Palestinian cause?",
+        "scenario_options_native": [
+          "قلبي فلسطيني وما نبيعش القضية.",
+          "لا أهتم بالسياسة.",
+          "نحن دائما نتحدث عن الماضي."
+        ],
+        "scenario_options_translation": [
+          "My heart is Palestinian, and I will never sell out the cause.",
+          "I don’t care about politics.",
+          "We always talk about the past."
+        ],
+        "correct_option": "قلبي فلسطيني وما نبيعش القضية."
+      },
+      {
+        "lesson_id": "lesson_5",
+        "phrase_native": "يا حبيبي غريب عليّ",
+        "phrase_translation": "Baby, you seem strange to me",
+        "context": "In Arabic songs, expressing emotional distance with phrases like 'غريب عليّ' (strange to me) conveys disconnection from someone close.",
+        "fill_in_blank": "يا حبيبي ____ عليّ",
+        "fill_in_blank_translation": "Baby, you seem ____ to me.",
+        "options_native": ["غريب", "قريب", "حزين"],
+        "options_translation": ["strange", "close", "sad"],
+        "correct_answer": "غريب",
+        "scenario_question_native": "لماذا أصبحت غريب عليّ؟",
+        "scenario_question_translation": "Why have you become strange to me?",
+        "scenario_options_native": [
+          "يا حبيبي غريب عليّ.",
+          "نحن كما كنا.",
+          "لا أشعر بأي اختلاف."
+        ],
+        "scenario_options_translation": [
+          "Baby, you seem strange to me.",
+          "We are the same as we were.",
+          "I don’t feel any difference."
+        ],
+        "correct_option": "يا حبيبي غريب عليّ."
+      }
+    ],
+    "timestamp_mapping": {
+      "7": "lesson_1",
+      "12": "lesson_2",
+      "55": "lesson_3",
+      "65": "lesson_4",
+      "88": "lesson_5"
+    }
+  }
+}

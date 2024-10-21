@@ -1,3 +1,4 @@
+// src/App.js
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import LandingPage from './components/LandingPage';
@@ -6,6 +7,7 @@ import LogIn from './components/LogIn';
 import Dashboard from './components/Dashboard';
 import SongView from './components/SongView';
 import LyricsView from './components/LyricsView';
+import SupportUs from './components/SupportUs'; // Import the new component
 import { auth } from './firebaseConfig';
 
 function App() {
@@ -14,12 +16,11 @@ function App() {
 
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged((currentUser) => {
-      console.log('Auth state changed:', currentUser); // Debugging log
       setUser(currentUser);
       setLoading(false);
     });
 
-    return () => unsubscribe(); // Cleanup the listener on unmount
+    return () => unsubscribe();
   }, []);
 
   if (loading) return <div>Loading...</div>;
@@ -31,11 +32,9 @@ function App() {
         <Route path="/signup" element={<SignUp />} />
         <Route path="/login" element={<LogIn />} />
         <Route path="/song/:language" element={<SongView />} />
-        <Route
-          path="/dashboard"
-          element={user ? <Dashboard /> : <Navigate to="/login" />}
-        />
+        <Route path="/dashboard" element={user ? <Dashboard /> : <Navigate to="/login" />} />
         <Route path="/lyrics/:songId" element={<LyricsView />} />
+        <Route path="/support-us" element={<SupportUs />} /> {/* New Route */}
       </Routes>
     </Router>
   );

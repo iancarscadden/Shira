@@ -1,0 +1,108 @@
+{
+  "Cántalo": {
+    "lessons": [
+      {
+        "lesson_id": "lesson_1",
+        "phrase_native": "Muévelo, que esto es un juego",
+        "phrase_translation": "Move it, this is a game",
+        "context": "In Latin American cultures, dancing and games are central to celebrations. This phrase encourages people to loosen up and have fun during these social activities.",
+        "fill_in_blank": "Muévelo, que esto es ______.",
+        "fill_in_blank_translation": "Move it, this is ______.",
+        "options_native": ["un juego", "un problema", "una prueba"],
+        "options_translation": ["a game", "a problem", "a test"],
+        "correct_answer": "un juego",
+        "scenario_question_native": "¿Cómo animas a tu amigo a bailar?",
+        "scenario_question_translation": "How do you encourage your friend to dance?",
+        "scenario_options_native": [
+          "Muévelo, que esto es un juego.",
+          "Vamos a casa.",
+          "No te preocupes por bailar."
+        ],
+        "scenario_options_translation": [
+          "Move it, this is just a game.",
+          "Let's go home.",
+          "Don't worry about dancing."
+        ],
+        "correct_option": "Muévelo, que esto es un juego."
+      },
+      {
+        "lesson_id": "lesson_2",
+        "phrase_native": "Vamo’ pa’ ’lante",
+        "phrase_translation": "Let's go forward",
+        "context": "This phrase represents the resilient, forward-thinking attitude common in Latin American cultures, often used to motivate and encourage perseverance in the face of challenges.",
+        "fill_in_blank": "No te rindas, ¡vamo’ pa’ ______!",
+        "fill_in_blank_translation": "Don't give up, let's go ______!",
+        "options_native": ["’lante", "atrás", "aquí"],
+        "options_translation": ["forward", "backward", "here"],
+        "correct_answer": "’lante",
+        "scenario_question_native": "¿Qué le dices a tu amigo para motivarlo?",
+        "scenario_question_translation": "What do you say to your friend to motivate them?",
+        "scenario_options_native": [
+          "¡Vamo’ pa’ ’lante!",
+          "No te preocupes.",
+          "Mañana será peor."
+        ],
+        "scenario_options_translation": [
+          "Let's go forward!",
+          "Don't worry.",
+          "Tomorrow will be worse."
+        ],
+        "correct_option": "¡Vamo’ pa’ ’lante!"
+      },
+      {
+        "lesson_id": "lesson_3",
+        "phrase_native": "Lo baila la calle",
+        "phrase_translation": "The street dances",
+        "context": "During festivals in Latin America, people take to the streets to celebrate through music and dancing, turning public spaces into hubs of joy and connection.",
+        "fill_in_blank": "Durante el carnaval lo ______ la calle.",
+        "fill_in_blank_translation": "During the carnival, the street ______.",
+        "options_native": ["baila", "bailo", "bailamos"],
+        "options_translation": ["dances", "I dance", "we dance"],
+        "correct_answer": "baila",
+        "scenario_question_native": "¿Te gusta bailar en la calle durante los festivales?",
+        "scenario_question_translation": "Do you like dancing in the street during festivals?",
+        "scenario_options_native": [
+          "Sí, lo bailo con todos.",
+          "No me gusta bailar.",
+          "Prefiero mirar a los demás."
+        ],
+        "scenario_options_translation": [
+          "Yes, I dance with everyone.",
+          "I don't like dancing.",
+          "I prefer to watch others."
+        ],
+        "correct_option": "Sí, lo bailo con todos."
+      },
+      {
+        "lesson_id": "lesson_4",
+        "phrase_native": "La calle está prendí’a, está en candela",
+        "phrase_translation": "The street is lit, it’s on fire",
+        "context": "Street festivals, like Carnival in Rio, turn public spaces into lively, energetic celebrations, often described as “prendí’a” or “en candela” to reflect their high-energy nature.",
+        "fill_in_blank": "La calle está ______, está en candela.",
+        "fill_in_blank_translation": "The street is ______, it's on fire.",
+        "options_native": ["prendí’a", "dormida", "vacía"],
+        "options_translation": ["lit", "sleeping", "empty"],
+        "correct_answer": "prendí’a",
+        "scenario_question_native": "¿Cómo describes la fiesta?",
+        "scenario_question_translation": "How do you describe the party?",
+        "scenario_options_native": [
+          "La calle está prendí’a, está en candela.",
+          "No había mucha gente.",
+          "Era una fiesta aburrida."
+        ],
+        "scenario_options_translation": [
+          "The street is lit, it's on fire.",
+          "There weren't many people.",
+          "It was a boring party."
+        ],
+        "correct_option": "La calle está prendí’a, está en candela."
+      }
+    ],
+    "timestamp_mapping": {
+      "34": "lesson_1",
+      "40": "lesson_2",
+      "82": "lesson_3",
+      "131": "lesson_4"
+    }
+  }
+}

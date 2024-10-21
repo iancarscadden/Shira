@@ -1,0 +1,133 @@
+{
+  "Papaoutai": {
+    "lessons": [
+      {
+        "lesson_id": "lesson_1",
+        "phrase_native": "Où est ton papa ?",
+        "phrase_translation": "Where is your dad?",
+        "context": "This phrase reflects Stromae's emotional plea in 'Papaoutai', addressing the absence of his father, a topic that resonates deeply with individuals who have experienced absent parents. The song speaks to the broader societal issue of fatherhood and parental absence.",
+        "fill_in_blank": "Où est ton ______ ?",
+        "fill_in_blank_translation": "Where is your ______?",
+        "options_native": ["papa", "ami", "mère"],
+        "options_translation": ["dad", "friend", "mother"],
+        "correct_answer": "papa",
+        "scenario_question_native": "Où est ton papa ?",
+        "scenario_question_translation": "Where is your dad?",
+        "scenario_options_native": [
+          "Il est au travail.",
+          "Je ne sais pas, il est souvent absent.",
+          "Il est à la maison."
+        ],
+        "scenario_options_translation": [
+          "He is at work.",
+          "I don’t know, he is often absent.",
+          "He is at home."
+        ],
+        "correct_option": "Je ne sais pas, il est souvent absent."
+      },
+      {
+        "lesson_id": "lesson_2",
+        "phrase_native": "Un jour ou l'autre on sera tous papa",
+        "phrase_translation": "One day or another, we will all be dads",
+        "context": "This phrase touches on the inevitability of becoming a father or assuming responsibilities in life. Stromae reflects on the cycle of fatherhood and the uncertainty of how to fulfill the role, resonating with the fears and responsibilities of parenthood.",
+        "fill_in_blank": "Un jour ou l'autre on sera tous ______.",
+        "fill_in_blank_translation": "One day or another, we will all be ______.",
+        "options_native": ["papa", "maman", "professeur"],
+        "options_translation": ["dads", "moms", "teachers"],
+        "correct_answer": "papa",
+        "scenario_question_native": "Penses-tu que tu seras un jour papa ?",
+        "scenario_question_translation": "Do you think you’ll be a father one day?",
+        "scenario_options_native": [
+          "Oui, un jour ou l'autre, on sera tous papa.",
+          "Je ne sais pas, ce n'est pas certain.",
+          "Non, je ne veux pas d'enfants."
+        ],
+        "scenario_options_translation": [
+          "Yes, one day or another, we will all be dads.",
+          "I don’t know, it’s not certain.",
+          "No, I don’t want children."
+        ],
+        "correct_option": "Oui, un jour ou l'autre, on sera tous papa."
+      },
+      {
+        "lesson_id": "lesson_3",
+        "phrase_native": "Sans même devoir lui parler",
+        "phrase_translation": "Without even having to talk to him",
+        "context": "This phrase highlights the emotional depth of family relationships, where one can sense what is wrong without the need for words. It reflects the unspoken understanding between parents and children, a common theme in French family dynamics.",
+        "fill_in_blank": "Sans même devoir lui ______.",
+        "fill_in_blank_translation": "Without even having to ______ to him.",
+        "options_native": ["parler", "voir", "donner"],
+        "options_translation": ["talk", "see", "give"],
+        "correct_answer": "parler",
+        "scenario_question_native": "Comment savais-tu ce qui n’allait pas ?",
+        "scenario_question_translation": "How did you know what was wrong?",
+        "scenario_options_native": [
+          "Je le savais sans même devoir lui parler.",
+          "Je devais lui parler pour le savoir.",
+          "Il m’a dit ce qui n’allait pas."
+        ],
+        "scenario_options_translation": [
+          "I knew without even having to talk to him.",
+          "I had to talk to him to find out.",
+          "He told me what was wrong."
+        ],
+        "correct_option": "Je le savais sans même devoir lui parler."
+      },
+      {
+        "lesson_id": "lesson_4",
+        "phrase_native": "Dis-nous où c'est caché",
+        "phrase_translation": "Tell us where it's hidden",
+        "context": "This phrase reflects the frustration and confusion in 'Papaoutai' as the singer asks where fatherhood is hidden, symbolizing the emotional struggle of searching for an absent father or deeper meaning in life.",
+        "fill_in_blank": "Dis-nous où c'est ______.",
+        "fill_in_blank_translation": "Tell us where it's ______.",
+        "options_native": ["caché", "parti", "trouvé"],
+        "options_translation": ["hidden", "gone", "found"],
+        "correct_answer": "caché",
+        "scenario_question_native": "Dis-nous où c'est caché.",
+        "scenario_question_translation": "Tell us where it's hidden.",
+        "scenario_options_native": [
+          "C'est caché sous la table.",
+          "Je ne sais pas où c'est caché.",
+          "C'est caché dans le placard."
+        ],
+        "scenario_options_translation": [
+          "It’s hidden under the table.",
+          "I don’t know where it’s hidden.",
+          "It’s hidden in the closet."
+        ],
+        "correct_option": "Je ne sais pas où c'est caché."
+      },
+      {
+        "lesson_id": "lesson_5",
+        "phrase_native": "Il sait ce qui ne va pas",
+        "phrase_translation": "He knows what's wrong",
+        "context": "This phrase reflects the deep emotional connection and intuition between family members, especially parents and children. In 'Papaoutai', it reflects the notion that even absent fathers might understand their children's struggles.",
+        "fill_in_blank": "Il sait ce qui ne ______ pas.",
+        "fill_in_blank_translation": "He knows what doesn’t ______.",
+        "options_native": ["va", "mange", "voit"],
+        "options_translation": ["work", "eat", "see"],
+        "correct_answer": "va",
+        "scenario_question_native": "Est-ce qu'il sait ce qui ne va pas ?",
+        "scenario_question_translation": "Does he know what’s wrong?",
+        "scenario_options_native": [
+          "Oui, il sait ce qui ne va pas.",
+          "Non, il ne sait pas ce qui ne va pas.",
+          "Il n’est pas sûr de ce qui ne va pas."
+        ],
+        "scenario_options_translation": [
+          "Yes, he knows what’s wrong.",
+          "No, he doesn’t know what’s wrong.",
+          "He’s not sure what’s wrong."
+        ],
+        "correct_option": "Oui, il sait ce qui ne va pas."
+      }
+    ],
+    "timestamp_mapping": {
+      "32": "lesson_1",
+      "85": "lesson_2",
+      "125": "lesson_3",
+      "150": "lesson_4",
+      "170": "lesson_5"
+    }
+  }
+}

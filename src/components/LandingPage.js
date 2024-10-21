@@ -6,20 +6,15 @@ import './LandingPage.css';
 
 export default function LandingPage() {
   const canvasRef = useRef(null);
+  const pageRef = useRef(null); // Ref for the landing-page div
   const navigate = useNavigate();
 
   useEffect(() => {
     const canvas = canvasRef.current;
     const ctx = canvas?.getContext('2d');
-    if (!canvas || !ctx) return;
+    const page = pageRef.current;
 
-    const resizeCanvas = () => {
-      canvas.width = window.innerWidth;
-      canvas.height = window.innerHeight;
-    };
-
-    window.addEventListener('resize', resizeCanvas);
-    resizeCanvas();
+    if (!canvas || !ctx || !page) return;
 
     const drawDots = () => {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -33,15 +28,33 @@ export default function LandingPage() {
           ctx.fill();
         }
       }
-
-      requestAnimationFrame(drawDots);
     };
 
-    drawDots();
+    const resizeCanvas = () => {
+      // Calculate the full width and height based on the landing-page's dimensions
+      const fullWidth = page.scrollWidth;
+      const fullHeight = page.scrollHeight;
+      canvas.width = fullWidth;
+      canvas.height = fullHeight;
+      drawDots(); // Redraw dots after resizing
+    };
+
+    window.addEventListener('resize', resizeCanvas);
+
+    // Use ResizeObserver to detect changes in the landing-page's size
+    const observer = new ResizeObserver(resizeCanvas);
+    observer.observe(page);
+
+    resizeCanvas(); // Initial call to set canvas size and draw dots
+
+    return () => {
+      window.removeEventListener('resize', resizeCanvas);
+      observer.disconnect();
+    };
   }, []);
 
   return (
-    <div className="landing-page">
+    <div className="landing-page" ref={pageRef}>
       <canvas ref={canvasRef} className="background-canvas" />
       <Navbar /> {/* Include Navbar */}
       <div className="main-content">
@@ -71,7 +84,7 @@ export default function LandingPage() {
           </section>
         </div>
         <button className="start-button" onClick={() => navigate('/signup')}>
-          Start Learning Now
+          Effortless Conversations Start Here
         </button>
       </div>
     </div>

@@ -1,0 +1,133 @@
+{
+  "Chiclete com Banana": {
+    "lessons": [
+      {
+        "lesson_id": "lesson_1",
+        "phrase_native": "Quero ver a grande confusão",
+        "phrase_translation": "I want to see the big mess",
+        "context": "This lyric expresses excitement for a cultural fusion, reflecting Brazil’s ability to blend global and local influences, especially in music.",
+        "fill_in_blank": "Quero ver a grande _______.",
+        "fill_in_blank_translation": "I want to see the big _______.",
+        "options_native": ["confusão", "tristeza", "solidão"],
+        "options_translation": ["mess", "sadness", "loneliness"],
+        "correct_answer": "confusão",
+        "scenario_question_native": "O que você quer que aconteça na festa?",
+        "scenario_question_translation": "What do you want to happen at the party?",
+        "scenario_options_native": [
+          "Quero ver a grande confusão.",
+          "Quero ver a grande festa.",
+          "Quero ver a noite acabar cedo."
+        ],
+        "scenario_options_translation": [
+          "I want to see the big mess.",
+          "I want to see the big party.",
+          "I want the night to end early."
+        ],
+        "correct_option": "Quero ver a grande confusão."
+      },
+      {
+        "lesson_id": "lesson_2",
+        "phrase_native": "Quando ele entender que o samba não é rumba",
+        "phrase_translation": "When he understands that samba is not rumba",
+        "context": "This lyric emphasizes the importance of recognizing and respecting the uniqueness of Brazilian musical styles.",
+        "fill_in_blank": "Quando ele entender que o samba não é ______.",
+        "fill_in_blank_translation": "When he understands that samba is not ______.",
+        "options_native": ["rumba", "tango", "fado"],
+        "options_translation": ["rumba", "tango", "fado"],
+        "correct_answer": "rumba",
+        "scenario_question_native": "Como você explicaria a diferença entre samba e rumba?",
+        "scenario_question_translation": "How would you explain the difference between samba and rumba?",
+        "scenario_options_native": [
+          "O samba não é rumba!",
+          "O samba e rumba são a mesma coisa.",
+          "Samba é uma dança lenta."
+        ],
+        "scenario_options_translation": [
+          "Samba is not rumba!",
+          "Samba and rumba are the same thing.",
+          "Samba is a slow dance."
+        ],
+        "correct_option": "O samba não é rumba!"
+      },
+      {
+        "lesson_id": "lesson_3",
+        "phrase_native": "Aí eu vou misturar Miami com Copacabana",
+        "phrase_translation": "Then I'll mix Miami with Copacabana",
+        "context": "This lyric symbolizes the playful fusion of American and Brazilian cultures.",
+        "fill_in_blank": "Eu vou misturar Miami com _______.",
+        "fill_in_blank_translation": "I'll mix Miami with _______.",
+        "options_native": ["Copacabana", "São Paulo", "Rio"],
+        "options_translation": ["Copacabana", "São Paulo", "Rio"],
+        "correct_answer": "Copacabana",
+        "scenario_question_native": "Qual é a sua mistura de culturas favorita?",
+        "scenario_question_translation": "What’s your favorite mix of cultures?",
+        "scenario_options_native": [
+          "Eu vou misturar Miami com Copacabana.",
+          "Eu vou misturar São Paulo com Londres.",
+          "Eu não gosto de misturar culturas."
+        ],
+        "scenario_options_translation": [
+          "I'll mix Miami with Copacabana.",
+          "I'll mix São Paulo with London.",
+          "I don't like mixing cultures."
+        ],
+        "correct_option": "Eu vou misturar Miami com Copacabana."
+      },
+      {
+        "lesson_id": "lesson_4",
+        "phrase_native": "Quero ver o boogie-woogie de pandeiro e violão",
+        "phrase_translation": "I want to see the boogie-woogie of tambourine and guitar",
+        "context": "This lyric showcases Brazil’s openness to musical innovation.",
+        "fill_in_blank": "Quero ver o boogie-woogie de _______ e _______.",
+        "fill_in_blank_translation": "I want to see the boogie-woogie of _______ and _______.",
+        "options_native": ["pandeiro", "violão", "bateria", "flauta"],
+        "options_translation": ["tambourine", "guitar", "drums", "flute"],
+        "correct_answer": ["pandeiro", "violão"],
+        "scenario_question_native": "Qual combinação de instrumentos você gostaria de ouvir?",
+        "scenario_question_translation": "What instrument combination would you like to hear?",
+        "scenario_options_native": [
+          "Quero ver o boogie-woogie de pandeiro e violão.",
+          "Quero ver o boogie-woogie de flauta e bateria.",
+          "Não gosto de boogie-woogie."
+        ],
+        "scenario_options_translation": [
+          "I want to see the boogie-woogie of tambourine and guitar.",
+          "I want to see the boogie-woogie of flute and drums.",
+          "I don't like boogie-woogie."
+        ],
+        "correct_option": "Quero ver o boogie-woogie de pandeiro e violão."
+      },
+      {
+        "lesson_id": "lesson_5",
+        "phrase_native": "Quero ver o tio Sam de frigideira numa batucada brasileira",
+        "phrase_translation": "I want to see Uncle Sam with a frying pan in a Brazilian batucada",
+        "context": "This lyric humorously imagines a playful fusion of American and Brazilian cultures.",
+        "fill_in_blank": "Quero ver o tio Sam de _______ numa batucada brasileira.",
+        "fill_in_blank_translation": "I want to see Uncle Sam with a _______ in a Brazilian batucada.",
+        "options_native": ["frigideira", "guitarra", "saxofone"],
+        "options_translation": ["frying pan", "guitar", "saxophone"],
+        "correct_answer": "frigideira",
+        "scenario_question_native": "Qual instrumento engraçado você gostaria de ver na música brasileira?",
+        "scenario_question_translation": "What’s a funny instrument you would like to see in Brazilian music?",
+        "scenario_options_native": [
+          "Quero ver o tio Sam de frigideira numa batucada brasileira.",
+          "Quero ver o tio Sam de guitarra numa batucada brasileira.",
+          "Quero ver o tio Sam de bateria numa batucada brasileira."
+        ],
+        "scenario_options_translation": [
+          "I want to see Uncle Sam with a frying pan in a Brazilian batucada.",
+          "I want to see Uncle Sam with a guitar in a Brazilian batucada.",
+          "I want to see Uncle Sam with drums in a Brazilian batucada."
+        ],
+        "correct_option": "Quero ver o tio Sam de frigideira numa batucada brasileira."
+      }
+    ],
+    "timestamp_mapping": {
+      "20": "lesson_2",
+      "24": "lesson_3",
+      "41": "lesson_1",
+      "55": "lesson_4",
+      "59": "lesson_5"
+    }
+  }
+}

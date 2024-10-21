@@ -1,0 +1,133 @@
+{
+  "Les Champs-Élysées": {
+    "lessons": [
+      {
+        "lesson_id": "lesson_1",
+        "phrase_native": "Le cœur ouvert à l’inconnu",
+        "phrase_translation": "My heart open to the unknown",
+        "context": "This phrase reflects a spirit of openness and adventure, emblematic of French romanticism. It conveys a willingness to embrace new experiences and meet new people, a common theme in Parisian life and French culture.",
+        "fill_in_blank": "Je marche dans la ville, le cœur ____ à l’inconnu.",
+        "fill_in_blank_translation": "I walk in the city, my heart open to the unknown.",
+        "options_native": ["plein", "ouvert", "grand", "fermé"],
+        "options_translation": ["full", "open", "big", "closed"],
+        "correct_answer": "ouvert",
+        "scenario_question_native": "Comment te sens-tu à l’idée de déménager dans une nouvelle ville ?",
+        "scenario_question_translation": "How do you feel about moving to a new city?",
+        "scenario_options_native": [
+          "Je suis fermé à toute nouvelle expérience.",
+          "Je suis prêt à tout, le cœur ouvert à l’inconnu.",
+          "J’ai peur de rencontrer de nouvelles personnes."
+        ],
+        "scenario_options_translation": [
+          "I’m closed off to any new experiences.",
+          "I am ready for anything, my heart open to the unknown.",
+          "I’m scared of meeting new people."
+        ],
+        "correct_option": "Je suis prêt à tout, le cœur ouvert à l’inconnu."
+      },
+      {
+        "lesson_id": "lesson_2",
+        "phrase_native": "Il suffisait de te parler pour t’apprivoiser",
+        "phrase_translation": "It was enough to talk to you to tame you",
+        "context": "This phrase embodies the French cultural value of communication as a way to connect with and “tame” someone. It highlights how a simple conversation can break barriers and build trust, a hallmark of French social interaction and romanticism.",
+        "fill_in_blank": "Il suffisait de ____ pour t’apprivoiser.",
+        "fill_in_blank_translation": "It was enough to ______ to tame you.",
+        "options_native": ["te comprendre", "te parler", "t’écouter", "te voir"],
+        "options_translation": ["to understand you", "to talk to you", "to listen to you", "to see you"],
+        "correct_answer": "te parler",
+        "scenario_question_native": "Comment as-tu réussi à te rapprocher de cette personne ?",
+        "scenario_question_translation": "How did you manage to get closer to this person?",
+        "scenario_options_native": [
+          "Je ne pense pas que nous nous entendons bien.",
+          "Il suffisait de te parler pour t’apprivoiser.",
+          "Je n’ai pas encore parlé avec cette personne."
+        ],
+        "scenario_options_translation": [
+          "I don’t think we get along well.",
+          "It was enough to talk to you to tame you.",
+          "I haven’t spoken with this person yet."
+        ],
+        "correct_option": "Il suffisait de te parler pour t’apprivoiser."
+      },
+      {
+        "lesson_id": "lesson_3",
+        "phrase_native": "Du soir au matin",
+        "phrase_translation": "From evening till morning",
+        "context": "This phrase captures the vibrant nightlife of Paris, where socializing and celebrations often last from dusk till dawn. It reflects the importance of nightlife and community gatherings in French culture, particularly in cities like Paris.",
+        "fill_in_blank": "Nous avons dansé ____ soir ____ matin.",
+        "fill_in_blank_translation": "We danced from evening till morning.",
+        "options_native": ["au", "en", "sous", "à"],
+        "options_translation": ["in", "in", "under", "at"],
+        "correct_answer": "du, au",
+        "scenario_question_native": "Comment s’est passée la fête hier soir ?",
+        "scenario_question_translation": "How was the party last night?",
+        "scenario_options_native": [
+          "Nous avons dansé du soir au matin.",
+          "C’était ennuyeux à cause du mauvais temps.",
+          "Il pleuvait tout le temps."
+        ],
+        "scenario_options_translation": [
+          "We danced from evening till morning.",
+          "It was boring because of the bad weather.",
+          "It was raining the whole time."
+        ],
+        "correct_option": "Nous avons dansé du soir au matin."
+      },
+      {
+        "lesson_id": "lesson_4",
+        "phrase_native": "Au soleil, sous la pluie",
+        "phrase_translation": "In the sun, under the rain",
+        "context": "This phrase emphasizes the romantic nature of Paris, where people enjoy the city no matter the weather. It reflects a sense of resilience and the ability to find joy in every moment, whether rain or shine.",
+        "fill_in_blank": "Nous nous promenons ____ soleil, ____ la pluie.",
+        "fill_in_blank_translation": "We walk in the sun, under the rain.",
+        "options_native": ["au", "de", "sous", "dans"],
+        "options_translation": ["in", "of", "under", "in"],
+        "correct_answer": "au, sous",
+        "scenario_question_native": "Comment était la balade à Paris malgré la pluie ?",
+        "scenario_question_translation": "How was the walk in Paris despite the rain?",
+        "scenario_options_native": [
+          "C’était ennuyeux à cause du mauvais temps.",
+          "Au soleil, sous la pluie.",
+          "Il pleuvait tout le temps."
+        ],
+        "scenario_options_translation": [
+          "It was boring because of the bad weather.",
+          "In the sun, under the rain.",
+          "It was raining the whole time."
+        ],
+        "correct_option": "Au soleil, sous la pluie."
+      },
+      {
+        "lesson_id": "lesson_5",
+        "phrase_native": "Il y a tout ce que vous voulez",
+        "phrase_translation": "There is everything you want",
+        "context": "This phrase reflects the romanticized idea of Paris and the Champs-Élysées as places where everything you desire can be found. It represents abundance, luxury, and the variety of experiences Paris has to offer.",
+        "fill_in_blank": "Dans cette ville, ____ tout ____ vous voulez.",
+        "fill_in_blank_translation": "In this city, there is everything you want.",
+        "options_native": ["ce que", "vous", "mangez", "il y a"],
+        "options_translation": ["what", "you", "eat", "there is"],
+        "correct_answer": "il y a, ce que",
+        "scenario_question_native": "Comment était le marché ?",
+        "scenario_question_translation": "How was the market?",
+        "scenario_options_native": [
+          "Il y a tout ce que vous voulez.",
+          "C’était trop cher.",
+          "Il n’y avait pas beaucoup de choix."
+        ],
+        "scenario_options_translation": [
+          "There is everything you want.",
+          "It was too expensive.",
+          "There wasn’t much choice."
+        ],
+        "correct_option": "Il y a tout ce que vous voulez."
+      }
+    ],
+    "timestamp_mapping": {
+      "10": "lesson_1",
+      "21": "lesson_2",
+      "49": "lesson_3",
+      "120": "lesson_4",
+      "142": "lesson_5"
+    }
+  }
+}

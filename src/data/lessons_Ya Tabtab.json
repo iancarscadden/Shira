@@ -1,0 +1,137 @@
+{
+  "Ya Tabtab": {
+    "lessons": [
+      {
+        "lesson_id": "lesson_1",
+        "phrase_native": "يا طب طب ودلّع",
+        "phrase_translation": "I either baby or spoil",
+        "context": "This phrase reflects the nurturing and caregiving side of relationships, which is common in Arabic culture, where pampering or comforting loved ones is a way of showing affection.",
+        "fill_in_blank": "كل ما كان يبكي، ____ ودلّع",
+        "fill_in_blank_translation": "Whenever he cried, I would ____ and spoil him.",
+        "options_native": ["طب طب", "نام", "جرى"],
+        "options_translation": ["baby", "sleep", "run"],
+        "correct_answer": "طب طب",
+        "scenario_question_native": "ماذا تفعل عندما ترى أحدًا من أحبائك يبكي؟",
+        "scenario_question_translation": "What do you do when you see one of your loved ones crying?",
+        "scenario_options_native": [
+          "يا طب طب ودلّع.",
+          "أتركهم وحدهم.",
+          "أتكلم معهم."
+        ],
+        "scenario_options_translation": [
+          "I baby and spoil.",
+          "I leave them alone.",
+          "I talk to them."
+        ],
+        "correct_option": "يا طب طب ودلّع."
+      },
+      {
+        "lesson_id": "lesson_2",
+        "phrase_native": "ده تعبني أوي",
+        "phrase_translation": "He tires me out a lot",
+        "context": "Expressing exhaustion due to emotional labor in relationships is common in Arabic culture, especially where family and romantic bonds require a lot of effort and attention.",
+        "fill_in_blank": "بعد يوم طويل، ____ أوي",
+        "fill_in_blank_translation": "After a long day, he ____ me a lot.",
+        "options_native": ["تعبني", "أسعدني", "قابلني"],
+        "options_translation": ["tires", "made me happy", "met me"],
+        "correct_answer": "تعبني",
+        "scenario_question_native": "كيف تشعر بعد يوم متعب؟",
+        "scenario_question_translation": "How do you feel after an exhausting day?",
+        "scenario_options_native": [
+          "ده تعبني أوي.",
+          "أشعر بالطاقة.",
+          "لا أشعر بالتعب."
+        ],
+        "scenario_options_translation": [
+          "He tires me out a lot.",
+          "I feel energetic.",
+          "I don’t feel tired."
+        ],
+        "correct_option": "ده تعبني أوي."
+      },
+      {
+        "lesson_id": "lesson_3",
+        "phrase_native": "ويهون عليا الكون",
+        "phrase_translation": "The universe feels light to me",
+        "context": "This phrase expresses a sense of emotional relief or detachment from life’s challenges, a common theme in Arabic music and literature.",
+        "fill_in_blank": "عندما أنتهي من حل المشكلة، الكون ____",
+        "fill_in_blank_translation": "When I solve the problem, the universe ____.",
+        "options_native": ["يهون عليا", "يثقل", "يعقد"],
+        "options_translation": ["feels light", "weighs down", "becomes complicated"],
+        "correct_answer": "يهون عليا",
+        "scenario_question_native": "كيف تشعر بعد حل مشكلة صعبة؟",
+        "scenario_question_translation": "How do you feel after solving a difficult problem?",
+        "scenario_options_native": [
+          "ويهون عليا الكون.",
+          "لا زلت أشعر بالقلق.",
+          "لم يتغير شيء."
+        ],
+        "scenario_options_translation": [
+          "The universe feels light to me.",
+          "I still feel worried.",
+          "Nothing has changed."
+        ],
+        "correct_option": "ويهون عليا الكون."
+      },
+      {
+        "lesson_id": "lesson_4",
+        "phrase_native": "مرة أزعل",
+        "phrase_translation": "One time I am upset",
+        "context": "This phrase reflects emotional fluctuations common in relationships, a frequent theme in Arabic music.",
+        "fill_in_blank": "مرة أزعل، ومرة ____",
+        "fill_in_blank_translation": "One time I am upset, and another time I ____.",
+        "options_native": ["أفرح", "أنام", "أغضب"],
+        "options_translation": ["am happy", "sleep", "am angry"],
+        "correct_answer": "أفرح",
+        "scenario_question_native": "هل تتقلب مشاعرك بسرعة؟",
+        "scenario_question_translation": "Do your feelings change quickly?",
+        "scenario_options_native": [
+          "مرة أزعل، ومرة أفرح.",
+          "لا، مشاعري ثابتة.",
+          "لا أغضب أبدًا."
+        ],
+        "scenario_options_translation": [
+          "One time I am upset, and another time I am happy.",
+          "No, my emotions are steady.",
+          "I never get angry."
+        ],
+        "correct_option": "مرة أزعل، ومرة أفرح."
+      },
+      {
+        "lesson_id": "lesson_5",
+        "phrase_native": "ما هو كل همه إزاي أرضيه",
+        "phrase_translation": "All he cares about is how I please him",
+        "context": "This phrase touches on the frustration of one-sided relationships, a common theme in Arabic music.",
+        "fill_in_blank": "كل همه ____, ولا يهتم بما أحتاجه",
+        "fill_in_blank_translation": "All he cares about is ____, and he doesn’t care about what I need.",
+        "options_native": ["إزاي أرضيه", "إزاي أساعده", "إزاي أغضبه"],
+        "options_translation": [
+          "how I please him",
+          "how I help him",
+          "how I anger him"
+        ],
+        "correct_answer": "إزاي أرضيه",
+        "scenario_question_native": "كيف تصف علاقة تشعر فيها بأنك غير مقدّر؟",
+        "scenario_question_translation": "How would you describe a relationship where you feel unappreciated?",
+        "scenario_options_native": [
+          "كل همه إزاي أرضيه.",
+          "نهتم ببعض دائمًا.",
+          "لا يهمه شيء."
+        ],
+        "scenario_options_translation": [
+          "All he cares about is how I please him.",
+          "We always care for each other.",
+          "He doesn’t care about anything."
+        ],
+        "correct_option": "كل همه إزاي أرضيه."
+      }
+    ],
+    "timestamp_mapping": {
+      "32": "lesson_1",
+      "68": "lesson_2",
+      "117": "lesson_3",
+      "105": "lesson_4",
+      "140": "lesson_5"
+    }
+  }
+}

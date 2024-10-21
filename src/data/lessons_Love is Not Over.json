@@ -1,0 +1,133 @@
+{
+  "Love is Not Over": {
+    "lessons": [
+      {
+        "lesson_id": "lesson_1",
+        "phrase_native": "그 긴 밤이 널 따라 흘러만 가는 것 같아",
+        "phrase_translation": "The long night is following you as it flows",
+        "context": "This phrase reflects the poetic and emotional language often used in K-pop to describe the feeling of time dragging when dealing with heartbreak. In Korean culture, time is often personified in literature and music to express emotional experiences.",
+        "fill_in_blank": "그 긴 밤이 널 ______ 흘러만 가는 것 같아.",
+        "fill_in_blank_translation": "The long night is ______ following you as it flows.",
+        "options_native": ["따라", "보며", "웃으며"],
+        "options_translation": ["following", "watching", "smiling"],
+        "correct_answer": "따라",
+        "scenario_question_native": "왜 잠을 못 잤어?",
+        "scenario_question_translation": "Why couldn’t you sleep?",
+        "scenario_options_native": [
+          "그 긴 밤이 널 따라 흘러만 가는 것 같아.",
+          "그냥 조금 피곤했어.",
+          "몰라, 잠이 잘 왔어."
+        ],
+        "scenario_options_translation": [
+          "The long night followed you as it flowed.",
+          "I was just a bit tired.",
+          "I don’t know, I slept well."
+        ],
+        "correct_option": "그 긴 밤이 널 따라 흘러만 가는 것 같아."
+      },
+      {
+        "lesson_id": "lesson_2",
+        "phrase_native": "사랑이란 아프고 아픈 것",
+        "phrase_translation": "Love is so painful",
+        "context": "In Korean ballads and K-pop, love is often depicted as bittersweet, with love and pain deeply intertwined. This lyric reflects the emotional weight that is commonly expressed in Korean love songs.",
+        "fill_in_blank": "사랑이란 ______ 아픈 것.",
+        "fill_in_blank_translation": "Love is ______ and painful.",
+        "options_native": ["힘들고", "아프고", "기쁜"],
+        "options_translation": ["hard", "painful", "happy"],
+        "correct_answer": "아프고",
+        "scenario_question_native": "사랑에 대해 어떻게 생각해?",
+        "scenario_question_translation": "What do you think about love?",
+        "scenario_options_native": [
+          "사랑이란 아프고 아픈 것 같아.",
+          "사랑은 항상 행복한 것 같아.",
+          "잘 모르겠어, 경험이 없어서."
+        ],
+        "scenario_options_translation": [
+          "I think love is so painful.",
+          "I think love is always happy.",
+          "I don’t know, I don’t have much experience."
+        ],
+        "correct_option": "사랑이란 아프고 아픈 것 같아."
+      },
+      {
+        "lesson_id": "lesson_3",
+        "phrase_native": "왜 멀어져가 왜 닿지 않을 만큼 가서",
+        "phrase_translation": "Why are you getting farther away, so far that I can’t reach you?",
+        "context": "In Korean culture, emotional distance is often described as physical distance. The use of distance as a metaphor for relationships and emotional disconnection is common in K-pop.",
+        "fill_in_blank": "왜 ______ 가 왜 닿지 않을 만큼 가서.",
+        "fill_in_blank_translation": "Why are you ______ so far that I can’t reach you?",
+        "options_native": ["멀어져", "가까워", "낮아져"],
+        "options_translation": ["getting farther", "getting closer", "getting lower"],
+        "correct_answer": "멀어져",
+        "scenario_question_native": "요즘 왜 나한테 멀어지는 것 같아?",
+        "scenario_question_translation": "Why do you seem distant these days?",
+        "scenario_options_native": [
+          "왜 멀어져가, 닿지 않을 만큼 멀어졌어?",
+          "그냥 바빴어.",
+          "아니, 나 아직 가까워."
+        ],
+        "scenario_options_translation": [
+          "Why are you getting so far away, so far I can’t reach you?",
+          "I’ve just been busy.",
+          "No, I’m still close."
+        ],
+        "correct_option": "왜 멀어져가, 닿지 않을 만큼 멀어졌어?"
+      },
+      {
+        "lesson_id": "lesson_4",
+        "phrase_native": "항상 니 앞에서는 웃지",
+        "phrase_translation": "I always smile in front of you",
+        "context": "In Korean society, maintaining a 'smiling face' is often a way of concealing deeper emotions. This lyric captures the idea of hiding one’s pain behind a smile.",
+        "fill_in_blank": "항상 니 ______ 에서는 웃지.",
+        "fill_in_blank_translation": "I always smile in front of ______.",
+        "options_native": ["뒤", "앞", "옆"],
+        "options_translation": ["behind", "in front of", "beside"],
+        "correct_answer": "앞",
+        "scenario_question_native": "왜 항상 웃어?",
+        "scenario_question_translation": "Why do you always smile?",
+        "scenario_options_native": [
+          "항상 니 앞에서는 웃지.",
+          "그냥 웃고 싶어.",
+          "사실 나 슬퍼."
+        ],
+        "scenario_options_translation": [
+          "I always smile in front of you.",
+          "I just want to smile.",
+          "Actually, I’m sad."
+        ],
+        "correct_option": "항상 니 앞에서는 웃지."
+      },
+      {
+        "lesson_id": "lesson_5",
+        "phrase_native": "이별이란 아프고 더 아픈 것 같애",
+        "phrase_translation": "Goodbyes are even more painful",
+        "context": "In Korean culture, parting ways or '이별' (farewell) is considered one of the most difficult aspects of relationships. It is often seen as a deeply painful experience that stays with you long after.",
+        "fill_in_blank": "이별이란 ______ 더 아픈 것 같애.",
+        "fill_in_blank_translation": "Goodbyes are ______ and even more painful.",
+        "options_native": ["아프고", "슬프고", "피곤하고"],
+        "options_translation": ["painful", "sad", "tiring"],
+        "correct_answer": "아프고",
+        "scenario_question_native": "헤어지는 게 어땠어?",
+        "scenario_question_translation": "How was breaking up?",
+        "scenario_options_native": [
+          "이별이란 아프고 더 아픈 것 같애.",
+          "괜찮았어, 안 아팠어.",
+          "그냥 슬펐어."
+        ],
+        "scenario_options_translation": [
+          "Goodbyes are so painful, even more painful.",
+          "It was okay, not painful.",
+          "I was just sad."
+        ],
+        "correct_option": "이별이란 아프고 더 아픈 것 같애."
+      }
+    ],
+    "timestamp_mapping": {
+      "14": "lesson_1",
+      "33": "lesson_3",
+      "52": "lesson_2",
+      "63": "lesson_5",
+      "160": "lesson_4"
+    }
+  }
+}

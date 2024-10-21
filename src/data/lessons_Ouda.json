@@ -1,0 +1,133 @@
+{
+  "Ouda": {
+    "lessons": [
+      {
+        "lesson_id": "lesson_1",
+        "phrase_native": "في سكوت زماني يفوت",
+        "phrase_translation": "In my silence, my time is wasted",
+        "context": "This phrase emphasizes the idea that time is passing without progress, a common theme in Arabic songs reflecting regret or missed opportunities.",
+        "fill_in_blank": "في ______ زماني يفوت",
+        "fill_in_blank_translation": "In ______, my time is wasted.",
+        "options_native": ["سكوت", "حزن", "انتظار"],
+        "options_translation": ["silence", "sorrow", "waiting"],
+        "correct_answer": "سكوت",
+        "scenario_question_native": "كيف تشعر عندما يضيع وقتك؟",
+        "scenario_question_translation": "How do you feel when you waste time?",
+        "scenario_options_native": [
+          "في سكوت زماني يفوت.",
+          "لم أفعل أي شيء مهم.",
+          "اليوم كان مثمرًا."
+        ],
+        "scenario_options_translation": [
+          "In my silence, my time is wasted.",
+          "I didn’t do anything important.",
+          "The day was productive."
+        ],
+        "correct_option": "في سكوت زماني يفوت."
+      },
+      {
+        "lesson_id": "lesson_2",
+        "phrase_native": "مهملني ولا المجاريح",
+        "phrase_translation": "Neglecting me, while my wounds heal",
+        "context": "Neglect and emotional healing are powerful themes in Arabic songs, reflecting a deep sense of abandonment during tough times.",
+        "fill_in_blank": "______ني ولا المجاريح",
+        "fill_in_blank_translation": "Neglecting me, while ____.",
+        "options_native": ["مهمل", "فارق", "نساني"],
+        "options_translation": ["neglect", "departed", "forgot"],
+        "correct_answer": "مهمل",
+        "scenario_question_native": "كيف شعرت عندما تجاهلك شخص ما وأنت تعاني؟",
+        "scenario_question_translation": "How did you feel when someone neglected you while you were suffering?",
+        "scenario_options_native": [
+          "مهملني ولا المجاريح.",
+          "كنت قويًا.",
+          "لا أحد يهتم."
+        ],
+        "scenario_options_translation": [
+          "Neglecting me, while my wounds heal.",
+          "I was strong.",
+          "No one cares."
+        ],
+        "correct_option": "مهملني ولا المجاريح."
+      },
+      {
+        "lesson_id": "lesson_3",
+        "phrase_native": "ليلي والخطاوِي",
+        "phrase_translation": "My nights and my steps",
+        "context": "In Arabic, the imagery of long nights and difficult steps often symbolizes struggles and perseverance through hard times.",
+        "fill_in_blank": "ليلي و______",
+        "fill_in_blank_translation": "My nights and ____.",
+        "options_native": ["الخطاوي", "الألم", "التعب"],
+        "options_translation": ["steps", "pain", "tiredness"],
+        "correct_answer": "الخطاوي",
+        "scenario_question_native": "كيف تصف الليالي الصعبة التي مررت بها؟",
+        "scenario_question_translation": "How would you describe the difficult nights you went through?",
+        "scenario_options_native": [
+          "ليلي والخطاوِي.",
+          "كانت ليال طويلة.",
+          "لا شيء كان صعبًا."
+        ],
+        "scenario_options_translation": [
+          "My nights and my steps.",
+          "They were long nights.",
+          "Nothing was difficult."
+        ],
+        "correct_option": "ليلي والخطاوِي."
+      },
+      {
+        "lesson_id": "lesson_4",
+        "phrase_native": "في غربة ريح",
+        "phrase_translation": "In the midst of strange winds",
+        "context": "This phrase represents feelings of alienation or navigating through tough, unfamiliar situations, with “wind” symbolizing difficulties in Arabic literature.",
+        "fill_in_blank": "في غربة ______",
+        "fill_in_blank_translation": "In the midst of ____.",
+        "options_native": ["ريح", "بيت", "طريق"],
+        "options_translation": ["wind", "house", "road"],
+        "correct_answer": "ريح",
+        "scenario_question_native": "كيف تصف فترة صعبة في حياتك؟",
+        "scenario_question_translation": "How would you describe a difficult time in your life?",
+        "scenario_options_native": [
+          "في غربة ريح.",
+          "كانت فترة سهلة.",
+          "شعرت بالضياع."
+        ],
+        "scenario_options_translation": [
+          "In the midst of strange winds.",
+          "It was an easy time.",
+          "I felt lost."
+        ],
+        "correct_option": "في غربة ريح."
+      },
+      {
+        "lesson_id": "lesson_5",
+        "phrase_native": "أنت ليا",
+        "phrase_translation": "You are mine",
+        "context": "This phrase is often used in romantic contexts in Arabic music, expressing deep affection and emotional attachment.",
+        "fill_in_blank": "أنت ____",
+        "fill_in_blank_translation": "You are ____.",
+        "options_native": ["ليا", "بعيد", "صديقي"],
+        "options_translation": ["mine", "distant", "friend"],
+        "correct_answer": "ليا",
+        "scenario_question_native": "كيف تخبر شريكك أنك مرتبط به؟",
+        "scenario_question_translation": "How do you tell your partner that you are emotionally attached to them?",
+        "scenario_options_native": [
+          "أنت ليا.",
+          "أنا مشغول.",
+          "أنت مجرد صديق."
+        ],
+        "scenario_options_translation": [
+          "You are mine.",
+          "I’m busy.",
+          "You’re just a friend."
+        ],
+        "correct_option": "أنت ليا."
+      }
+    ],
+    "timestamp_mapping": {
+      "45": "lesson_1",
+      "72": "lesson_2",
+      "108": "lesson_3",
+      "150": "lesson_4",
+      "195": "lesson_5"
+    }
+  }
+}

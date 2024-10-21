@@ -5,13 +5,16 @@ import './Navbar.css';
 
 export default function Navbar({
   onAccountClick,
+  onContactClick, // New prop for Contact Us button
+  onSeek, // Added onSeek prop to fix the undefined error
   text,
   navigateTo,
   isLyricsView,
   onPlayPause,
-  onSeek,
   isPlaying,
   currentTime,
+  toggleAutoplay,
+  isAutoplay,
 }) {
   const location = useLocation();
   const navigate = useNavigate();
@@ -26,7 +29,7 @@ export default function Navbar({
     return `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
   };
 
-  // Navbar for LyricsView with media controls
+  // Navbar for LyricsView with media controls and autoplay toggle
   if (isLyricsView) {
     return (
       <div className="navbar">
@@ -71,9 +74,14 @@ export default function Navbar({
     return (
       <div className="navbar">
         <div className="navbar-brand">LinguaBeats</div>
-        <button className="account-button" onClick={onAccountClick}>
-          Your Account
-        </button>
+        <div className="navbar-buttons">
+          <button className="header-button" onClick={onAccountClick}>
+            Your Account
+          </button>
+          <button className="header-button" onClick={onContactClick}>
+            Contact Us
+          </button>
+        </div>
       </div>
     );
   }
@@ -85,8 +93,12 @@ export default function Navbar({
         LinguaBeats
       </span>
       <div className="navbar-buttons">
-        <button className="header-button" onClick={() => navigate('/login')}>Log In</button>
-        <button className="header-button" onClick={() => navigate('/signup')}>Sign Up</button>
+        <button className="header-button" onClick={() => navigate('/login')}>
+          Log In
+        </button>
+        <button className="header-button" onClick={() => navigate('/signup')}>
+          Sign Up
+        </button>
       </div>
     </div>
   );

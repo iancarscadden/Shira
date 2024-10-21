@@ -154,8 +154,8 @@ export default function Dashboard() {
               &times;
             </button>
             <h2>Contact Us</h2>
-            <p><strong>Business Inquiries:</strong> egipi18@gmail.com</p>
-            <p><strong>Technical Inquiries:</strong> ianmcarscadden@gmail.com</p>
+            <p><strong>Business Inquiries:</strong> edglobal18@gmail.com</p>
+            <p><strong>Technical Inquiries:</strong> iancarscadden2@gmail.com</p>
           </div>
         </div>
       )}

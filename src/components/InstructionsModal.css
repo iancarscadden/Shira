@@ -1,0 +1,104 @@
+/* src/components/InstructionsModal.css */
+
+/* Modal Overlay */
+.instructions-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000; /* Ensure it appears above other content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal Content */
+.instructions-modal-content {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 95%;
+  max-width: 1000px; /* Increased modal width */
+  padding: 20px 30px; /* Adjusted padding */
+  position: relative;
+  height: auto; /* Let the content determine the height */
+  max-height: 95vh;
+  overflow: hidden; /* Hide any overflow */
+}
+
+/* Close Button */
+.instructions-modal-close-button {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: #00759c;
+  cursor: pointer;
+}
+
+.instructions-modal-close-button:hover {
+  color: #005f8c;
+}
+
+/* Instructions Content */
+.instructions-modal-body {
+  padding-top: 20px;
+}
+
+.instructions-modal-content h2 {
+  text-align: center;
+  color: #00759c;
+  margin-bottom: 20px;
+  font-size: 1.6rem; /* Reduced font size */
+}
+
+.instructions-modal-content h3 {
+  color: #00759c;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 1.2rem; /* Reduced font size */
+}
+
+.instructions-modal-content p {
+  font-size: 0.9rem; /* Reduced font size */
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+
+.instructions-modal-content p strong {
+  font-weight: bold;
+}
+
+.instructions-modal-content p strong::after {
+  content: " "; /* Ensure space after bold text */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .instructions-modal-content {
+    width: 95%;
+    padding: 15px 20px; /* Adjusted padding */
+  }
+
+  .instructions-modal-content h2 {
+    font-size: 1.4rem;
+  }
+
+  .instructions-modal-content h3 {
+    font-size: 1.1rem;
+  }
+
+  .instructions-modal-content p,
+  .instructions-modal-content p strong {
+    font-size: 0.8rem;
+  }
+
+  .instructions-modal-close-button {
+    font-size: 1.5rem;
+    top: 10px;
+    right: 15px;
+  }
+}

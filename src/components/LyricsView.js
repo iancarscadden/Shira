@@ -5,6 +5,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import Navbar from './Navbar';
 import LessonModal from './LessonModal';
 import JumpToLessonModal from './JumpToLessonModal';
+import InstructionsModal from './InstructionsModal'; // Import the new component
 import './LyricsView.css';
 import songsData from '../data/songs.json';
 import lessonsData from '../data';
@@ -20,8 +21,9 @@ export default function LyricsView() {
   const [lessons, setLessons] = useState([]);
   const [timestampMapping, setTimestampMapping] = useState({});
   const [currentLesson, setCurrentLesson] = useState(null);
-  const [isAutoplay, setIsAutoplay] = useState(true); // Default to Off
+  const [isAutoplay, setIsAutoplay] = useState(true); // Default to On
   const [isJumpModalOpen, setIsJumpModalOpen] = useState(false);
+  const [isInstructionsModalOpen, setIsInstructionsModalOpen] = useState(false); // New state
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
 
@@ -248,6 +250,22 @@ export default function LyricsView() {
   };
 
   /**
+   * Opens the "Instructions" modal.
+   */
+  const openInstructionsModal = () => {
+    console.log('Opening InstructionsModal');
+    setIsInstructionsModalOpen(true);
+  };
+
+  /**
+   * Closes the "Instructions" modal.
+   */
+  const closeInstructionsModal = () => {
+    console.log('Closing InstructionsModal');
+    setIsInstructionsModalOpen(false);
+  };
+
+  /**
    * Handles selecting a lesson from the modal.
    * Seeks the video to the lesson's timestamp and pauses the video.
    */
@@ -266,7 +284,7 @@ export default function LyricsView() {
         setCurrentLesson(lesson);
         triggeredLessonsRef.current.add(time);
         console.log(`Selected lesson '${lesson.lesson_id}' at time ${time}`);
-        player.pauseVideo(); // Pause the video when a lesson is selected
+        player.pauseVideo(); // Pause the video when lesson is triggered
         closeJumpModal();
       } else {
         console.warn('Player not ready to seek');
@@ -287,6 +305,18 @@ export default function LyricsView() {
       console.log('Resuming video playback');
     }
   };
+
+  /**
+   * Show Instructions Modal on first visit
+   */
+  useEffect(() => {
+    // Check if the user has seen the instructions before
+    const hasSeenInstructions = localStorage.getItem('hasSeenInstructions');
+    if (!hasSeenInstructions) {
+      setIsInstructionsModalOpen(true);
+      localStorage.setItem('hasSeenInstructions', 'true');
+    }
+  }, []);
 
   /**
    * Draw Dot Effect on the Background Canvas
@@ -380,6 +410,12 @@ export default function LyricsView() {
             >
               Lessons Autoplay: {isAutoplay ? 'On' : 'Off'}
             </button>
+            <button
+              className="button button-oval instructions-button"
+              onClick={openInstructionsModal}
+            >
+              Instructions
+            </button>
           </div>
         </div>
         <div className="lyrics-container">
@@ -409,6 +445,11 @@ export default function LyricsView() {
           onClose={closeJumpModal}
           onSelectLesson={handleSelectLesson}
         />
+      )}
+
+      {/* Instructions Modal */}
+      {isInstructionsModalOpen && (
+        <InstructionsModal onClose={closeInstructionsModal} />
       )}
     </div>
   );

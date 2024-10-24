@@ -2,7 +2,7 @@
 
 import lessonsCantalo from './lessons_Cántalo.json';
 import lessonsVivirMiVida from './lessons_Vivir Mi Vida.json';
-import lessonsTeQueroPaMi from './lessons_Te Quiero Pa’ Mí.json';
+import lessonsTeQueroPaMi from './lessons_Te Quiero Pa Mi.json';
 import lessonsChicleteComBanana from './lessons_Chiclete com Banana.json';
 import lessonsDonaMaria from './lessons_Dona Maria.json';
 import lessonsJaSeiNamorar from './lessons_Já Sei Namorar.json';
@@ -22,7 +22,7 @@ import lessonsOuda from './lessons_Ouda.json';
 const lessonsData = {
   "Cántalo": lessonsCantalo["Cántalo"],
   "Vivir Mi Vida": lessonsVivirMiVida["Vivir Mi Vida"],
-  "Te Quiero Pa’ Mí": lessonsTeQueroPaMi["Te Quero Pa’ Mí"],
+  "Te Quiero Pa Mi": lessonsTeQueroPaMi["Te Quiero Pa Mi"],
   "Chiclete com Banana": lessonsChicleteComBanana["Chiclete com Banana"],
   "Dona Maria": lessonsDonaMaria["Dona Maria"],
   "Já Sei Namorar": lessonsJaSeiNamorar["Já Sei Namorar"],

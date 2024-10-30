@@ -38,7 +38,7 @@ body, html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 80px 2rem 40px 2rem; /* 80px top padding, 40px bottom padding */
+  padding: 40px 1rem 20px 1rem; /* Reduced padding */
   z-index: 5;
   position: relative;
   min-height: 100vh; /* Ensures content spans at least full viewport height */
@@ -47,30 +47,30 @@ body, html {
 
 /* Welcome Text */
 .main-content h1 {
-  font-size: 4rem;
+  font-size: 3rem; /* Reduced font size */
   font-weight: bold;
   color: white;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .text-section {
   max-width: 600px;
-  margin-bottom: 2rem;
-}
-
-.text-section section {
   margin-bottom: 1.5rem;
 }
 
+.text-section section {
+  margin-bottom: 1rem;
+}
+
 .text-section h2 {
-  font-size: 2rem;
+  font-size: 1.8rem; /* Reduced font size */
   font-weight: 300;
   color: white;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.4rem;
 }
 
 .text-section p {
-  font-size: 1.2rem;
+  font-size: 1.1rem; /* Reduced font size */
   line-height: 1.6;
   color: white;
 }
@@ -79,8 +79,8 @@ body, html {
 .start-button {
   background-color: #7ed348;
   color: #00759c;
-  padding: 1rem 2rem;
-  font-size: 1.2rem;
+  padding: 0.8rem 1.5rem; /* Adjusted padding */
+  font-size: 1.1rem; /* Reduced font size */
   font-weight: bold;
   text-transform: uppercase;
   border: none;
@@ -88,11 +88,11 @@ body, html {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s, box-shadow 0.3s;
   cursor: pointer;
-  margin-bottom: 40px; /* Added space below the button */
+  margin-bottom: 20px; /* Reduced space below the button */
 }
 
 .start-button:hover {
-  background-color: #6CBC40;
+  background-color: #6cbc40;
   transform: scale(1.05);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
@@ -100,7 +100,7 @@ body, html {
 /* Responsive Adjustments */
 @media (max-width: 768px) {
   .main-content h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   .text-section h2 {
@@ -114,11 +114,11 @@ body, html {
   .start-button {
     width: 100%;
     max-width: 300px;
-    margin-bottom: 20px; /* Reduced margin on smaller screens */
+    margin-bottom: 15px; /* Further reduced margin on smaller screens */
   }
 
   .main-content {
-    padding-top: 80px; /* Ensure sufficient top padding on smaller screens */
-    padding-bottom: 20px; /* Adjust bottom padding on small screens */
+    padding-top: 40px; /* Adjusted top padding on smaller screens */
+    padding-bottom: 10px; /* Adjusted bottom padding on small screens */
   }
 }

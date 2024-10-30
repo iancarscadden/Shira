@@ -1,4 +1,5 @@
 // src/components/Dashboard.js
+
 import React, { useState, useRef, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Navbar from './Navbar';
@@ -7,14 +8,14 @@ import './Dashboard.css';
 
 export default function Dashboard() {
   const [showPopup, setShowPopup] = useState(false);
-  const [showContactPopup, setShowContactPopup] = useState(false); // New state for Contact Us popup
+  const [showContactPopup, setShowContactPopup] = useState(false);
   const canvasRef = useRef(null);
   const navigate = useNavigate();
 
   const handleSignOut = async () => {
     try {
       await signOut(auth);
-      navigate('/login');
+      navigate('/'); // Redirect to Landing Page after sign out
     } catch (error) {
       console.error('Sign out error:', error.message);
     }
@@ -42,16 +43,14 @@ export default function Dashboard() {
     };
 
     const resizeCanvas = () => {
-      // Set canvas size based on the full page dimensions
       canvas.width = page.scrollWidth;
       canvas.height = page.scrollHeight;
-      drawDots(); // Redraw dots after resizing
+      drawDots();
     };
 
     window.addEventListener('resize', resizeCanvas);
-    resizeCanvas(); // Initial call to set canvas size and draw dots
+    resizeCanvas();
 
-    // Optional: Observe changes in the page size
     const observer = new ResizeObserver(resizeCanvas);
     observer.observe(page);
 
@@ -66,7 +65,7 @@ export default function Dashboard() {
       <canvas ref={canvasRef} className="background-canvas" aria-hidden="true" />
       <Navbar
         onAccountClick={() => setShowPopup(true)}
-        onContactClick={() => setShowContactPopup(true)} // New prop for Contact Us button
+        onContactClick={() => setShowContactPopup(true)}
       />
 
       <div className="content-container">
@@ -120,7 +119,6 @@ export default function Dashboard() {
             >
               Leave Feedback Here!
             </button>
-            {/* Removed the Contact Us button from here */}
           </div>
         </div>
       </div>

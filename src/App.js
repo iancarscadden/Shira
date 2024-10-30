@@ -1,30 +1,17 @@
 // src/App.js
-import React, { useEffect, useState } from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import LandingPage from './components/LandingPage';
 import SignUp from './components/SignUp';
 import LogIn from './components/LogIn';
 import Dashboard from './components/Dashboard';
 import SongView from './components/SongView';
 import LyricsView from './components/LyricsView';
-import SupportUs from './components/SupportUs'; // Import the new component
-import { auth } from './firebaseConfig';
+import SupportUs from './components/SupportUs';
+// import { auth } from './firebaseConfig';
 
 function App() {
-  const [user, setUser] = useState(null);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    const unsubscribe = auth.onAuthStateChanged((currentUser) => {
-      setUser(currentUser);
-      setLoading(false);
-    });
-
-    return () => unsubscribe();
-  }, []);
-
-  if (loading) return <div>Loading...</div>;
-
   return (
     <Router>
       <Routes>
@@ -32,9 +19,10 @@ function App() {
         <Route path="/signup" element={<SignUp />} />
         <Route path="/login" element={<LogIn />} />
         <Route path="/song/:language" element={<SongView />} />
-        <Route path="/dashboard" element={user ? <Dashboard /> : <Navigate to="/login" />} />
+        {/* Dashboard is now accessible without authentication */}
+        <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/lyrics/:songId" element={<LyricsView />} />
-        <Route path="/support-us" element={<SupportUs />} /> {/* New Route */}
+        <Route path="/support-us" element={<SupportUs />} />
       </Routes>
     </Router>
   );

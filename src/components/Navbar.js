@@ -1,4 +1,5 @@
 // src/components/Navbar.js
+
 import React from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import './Navbar.css';
@@ -73,7 +74,9 @@ export default function Navbar({
   if (isDashboard) {
     return (
       <div className="navbar">
-        <div className="navbar-brand">LinguaBeats</div>
+        <div className="navbar-brand" onClick={() => navigate('/')}>
+          LinguaBeats
+        </div>
         <div className="navbar-buttons">
           <button className="header-button" onClick={onAccountClick}>
             Your Account
@@ -81,25 +84,34 @@ export default function Navbar({
           <button className="header-button" onClick={onContactClick}>
             Contact Us
           </button>
+          <button className="header-button" onClick={() => navigate('/login')}>
+            Log In
+          </button>
+          <button className="header-button" onClick={() => navigate('/signup')}>
+            Sign Up
+          </button>
         </div>
       </div>
     );
   }
 
   // Default Navbar for Landing, Login, and Signup Pages
+  const handleBrandClick = () => {
+    const { pathname } = location;
+    if (pathname === '/login' || pathname === '/signup') {
+      navigate('/dashboard');
+    } else {
+      navigate('/');
+    }
+  };
+
   return (
     <div className="navbar">
-      <span className="navbar-brand" onClick={() => navigate('/')}>
+      <span className="navbar-brand" onClick={handleBrandClick}>
         LinguaBeats
       </span>
-      <div className="navbar-buttons">
-        <button className="header-button" onClick={() => navigate('/login')}>
-          Log In
-        </button>
-        <button className="header-button" onClick={() => navigate('/signup')}>
-          Sign Up
-        </button>
-      </div>
+      {/* Removed Log In and Sign Up buttons from default Navbar */}
+      {/* If you need other buttons on the Landing Page Navbar, add them here */}
     </div>
   );
 }

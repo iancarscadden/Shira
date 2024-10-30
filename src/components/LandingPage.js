@@ -1,4 +1,5 @@
 // src/components/LandingPage.js
+
 import React, { useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Navbar from './Navbar';
@@ -83,7 +84,7 @@ export default function LandingPage() {
             </p>
           </section>
         </div>
-        <button className="start-button" onClick={() => navigate('/signup')}>
+        <button className="start-button" onClick={() => navigate('/dashboard')}>
           Effortless Conversations Start Here
         </button>
       </div>

@@ -1,10 +1,9 @@
-// src/components/Dashboard.js
-
 import React, { useState, useRef, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Navbar from './Navbar';
 import { auth, signOut } from '../firebaseConfig';
 import './Dashboard.css';
+import { FaRegHeart, FaRegComment } from 'react-icons/fa'; // Importing minimalistic icons
 
 export default function Dashboard() {
   const [showPopup, setShowPopup] = useState(false);
@@ -70,46 +69,43 @@ export default function Dashboard() {
 
       <div className="content-container">
         <h1>Welcome To Your Dashboard</h1>
-        <p className="small-text">Thank you for testing our product.</p>
 
-        <div className="language-selection">
-          <p>Pick your language to learn:</p>
-          <div className="language-buttons">
-            <button onClick={() => navigate('/song/Spanish')} className="language-button">
-              <span role="img" aria-label="Spanish Flag">🇪🇸</span> Spanish
-            </button>
-            <button onClick={() => navigate('/song/French')} className="language-button">
-              <span role="img" aria-label="French Flag">🇫🇷</span> French
-            </button>
-            <button onClick={() => navigate('/song/Arabic')} className="language-button">
-              <span role="img" aria-label="Arabic Flag">🇸🇦</span> Arabic
-            </button>
-            <button onClick={() => navigate('/song/Korean')} className="language-button">
-              <span role="img" aria-label="South Korea Flag">🇰🇷</span> Korean
-            </button>
-            <button onClick={() => navigate('/song/Portuguese')} className="language-button">
-              <span role="img" aria-label="Portugal Flag">🇵🇹</span> Portuguese
-            </button>
+        <div className="dashboard-section">
+          {/* Left Box: Language Selection */}
+          <div className="left-box">
+            <p className="section-title">Pick your language to learn:</p>
+            <div className="language-buttons">
+              <button onClick={() => navigate('/song/Spanish')} className="language-button">
+                <span role="img" aria-label="Spanish Flag">🇪🇸</span> Spanish
+              </button>
+              <button onClick={() => navigate('/song/French')} className="language-button">
+                <span role="img" aria-label="French Flag">🇫🇷</span> French
+              </button>
+              <button onClick={() => navigate('/song/Arabic')} className="language-button">
+                <span role="img" aria-label="Arabic Flag">🇸🇦</span> Arabic
+              </button>
+              <button onClick={() => navigate('/song/Korean')} className="language-button">
+                <span role="img" aria-label="South Korea Flag">🇰🇷</span> Korean
+              </button>
+              <button onClick={() => navigate('/song/Portuguese')} className="language-button">
+                <span role="img" aria-label="Portugal Flag">🇵🇹</span> Portuguese
+              </button>
+            </div>
           </div>
-        </div>
 
-        {/* Support Us Section */}
-        <div className="support-message">
-          <p className="support-text">
-            Thank you for testing the first version of LinguaBeats. This project is
-            in its early stages, and your support can make a significant difference.
-          </p>
-          <p className="support-text">
-            For <strong>any donation—Even just $1—</strong> you’ll unlock
-            <strong> early access to new features</strong> and <strong>pay less than everyone else</strong> for future paid features.
-            Help us <strong>become the Duolingo killer</strong> and take the fear out of conversational fluency.
-          </p>
-          <div className="action-buttons">
-            <button className="support-button" onClick={() => navigate('/support-us')}>
-              Support Us!
+          {/* Right Box: Support Us */}
+          <div className="right-box">
+            <p className="section-title">Support Us</p>
+            <ul className="support-list">
+              <li>Just $1 unlocks early access</li>
+              <li>Enjoy future discounts</li>
+              <li>Help build the 'Duolingo killer'</li>
+            </ul>
+            <button className="donate-button" onClick={() => navigate('/support-us')}>
+              <FaRegHeart className="button-icon" /> Donate $1
             </button>
             <button
-              className="support-button"
+              className="feedback-button"
               onClick={() =>
                 window.open(
                   'https://docs.google.com/forms/d/e/1FAIpQLSe0VM_aS5XUP3JBXNYxIkJEpr99DoNZMybt-eGJJIeupMlZjQ/viewform?usp=sf_link',
@@ -117,7 +113,7 @@ export default function Dashboard() {
                 )
               }
             >
-              Leave Feedback Here!
+              <FaRegComment className="button-icon" /> Give Feedback
             </button>
           </div>
         </div>

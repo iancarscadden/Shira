@@ -55,27 +55,58 @@ body, html {
 
 .text-section {
   max-width: 600px;
+  width: 100%;
   margin-bottom: 1.5rem;
 }
 
-.text-section section {
+.dropdown-section {
   margin-bottom: 1rem;
 }
 
-.text-section h2 {
+.dropdown-header {
   font-size: 1.8rem; /* Reduced font size */
   font-weight: 300;
   color: white;
   margin-bottom: 0.4rem;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.text-section p {
+.dropdown-header:hover {
+  color: #d1d1d1;
+}
+
+.arrow {
+  margin-left: 8px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  transition: transform 0.3s;
+}
+
+.arrow.up {
+  transform: rotate(-135deg);
+}
+
+.arrow.down {
+  transform: rotate(45deg);
+}
+
+.dropdown-content {
   font-size: 1.1rem; /* Reduced font size */
   line-height: 1.6;
   color: white;
+  max-height: 500px;
+  transition: max-height 0.3s ease;
+  overflow: hidden;
+  padding: 0 1rem;
 }
 
-/* Start Button */
 .start-button {
   background-color: #7ed348;
   color: #00759c;
@@ -103,11 +134,11 @@ body, html {
     font-size: 2.5rem;
   }
 
-  .text-section h2 {
+  .dropdown-header {
     font-size: 1.5rem;
   }
 
-  .text-section p {
+  .dropdown-content {
     font-size: 1rem;
   }
 

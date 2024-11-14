@@ -1,6 +1,6 @@
 // src/components/LandingPage.js
 
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Navbar from './Navbar';
 import './LandingPage.css';
@@ -9,6 +9,11 @@ export default function LandingPage() {
   const canvasRef = useRef(null);
   const pageRef = useRef(null); // Ref for the landing-page div
   const navigate = useNavigate();
+
+  // State to manage dropdown visibility
+  const [isWhoWeAreOpen, setIsWhoWeAreOpen] = useState(false);
+  const [isWhatWeDoOpen, setIsWhatWeDoOpen] = useState(false);
+  const [isOurMissionOpen, setIsOurMissionOpen] = useState(false);
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -54,6 +59,19 @@ export default function LandingPage() {
     };
   }, []);
 
+  // Handlers to toggle dropdowns
+  const toggleWhoWeAre = () => {
+    setIsWhoWeAreOpen((prev) => !prev);
+  };
+
+  const toggleWhatWeDo = () => {
+    setIsWhatWeDoOpen((prev) => !prev);
+  };
+
+  const toggleOurMission = () => {
+    setIsOurMissionOpen((prev) => !prev);
+  };
+
   return (
     <div className="landing-page" ref={pageRef}>
       <canvas ref={canvasRef} className="background-canvas" />
@@ -61,27 +79,42 @@ export default function LandingPage() {
       <div className="main-content">
         <h1>LinguaBeats</h1>
         <div className="text-section">
-          <section>
-            <h2>Who we are</h2>
-            <p>
-              We’re two college students passionate about discovering and designing fun,
-              engaging ways to make language learning more effective and enjoyable.
-            </p>
+          <section className="dropdown-section">
+            <h2 onClick={toggleWhoWeAre} className="dropdown-header">
+              Who we are
+              <span className={`arrow ${isWhoWeAreOpen ? 'up' : 'down'}`}></span>
+            </h2>
+            {isWhoWeAreOpen && (
+              <p className="dropdown-content">
+                We’re two college students passionate about discovering and designing fun,
+                engaging ways to make language learning more effective and enjoyable.
+              </p>
+            )}
           </section>
-          <section>
-            <h2>What we do</h2>
-            <p>
-              We focus on helping learners achieve conversational fluency that can be
-              applied confidently in real-life situations.
-            </p>
+          <section className="dropdown-section">
+            <h2 onClick={toggleWhatWeDo} className="dropdown-header">
+              What we do
+              <span className={`arrow ${isWhatWeDoOpen ? 'up' : 'down'}`}></span>
+            </h2>
+            {isWhatWeDoOpen && (
+              <p className="dropdown-content">
+                We focus on helping learners achieve conversational fluency that can be
+                applied confidently in real-life situations.
+              </p>
+            )}
           </section>
-          <section>
-            <h2>Our Mission</h2>
-            <p>
-              Using music to bridge the gap between traditional language learning methods
-              and verbal confidence, focusing on conversational fluency, contextualization,
-              and cultural immersion.
-            </p>
+          <section className="dropdown-section">
+            <h2 onClick={toggleOurMission} className="dropdown-header">
+              Our Mission
+              <span className={`arrow ${isOurMissionOpen ? 'up' : 'down'}`}></span>
+            </h2>
+            {isOurMissionOpen && (
+              <p className="dropdown-content">
+                Using music to bridge the gap between traditional language learning methods
+                and verbal confidence, focusing on conversational fluency, contextualization,
+                and cultural immersion.
+              </p>
+            )}
           </section>
         </div>
         <button className="start-button" onClick={() => navigate('/dashboard')}>

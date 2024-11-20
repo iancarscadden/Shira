@@ -1,15 +1,20 @@
-import React, { useState, useRef, useEffect } from 'react';
+// src/components/Dashboard.js
+
+import React, { useState, useRef, useEffect, useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
-import Navbar from './Navbar';
 import { auth, signOut } from '../firebaseConfig';
-import './Dashboard.css';
+import TimerContext from '../context/TimerContext'; // Import TimerContext
+import Navbar from './Navbar';
+import TimerModal from './TimerModal'; // Import the TimerModal
 import { FaRegHeart, FaRegComment } from 'react-icons/fa'; // Importing minimalistic icons
+import './Dashboard.css';
 
 export default function Dashboard() {
   const [showPopup, setShowPopup] = useState(false);
   const [showContactPopup, setShowContactPopup] = useState(false);
   const canvasRef = useRef(null);
   const navigate = useNavigate();
+  const { startTimer } = useContext(TimerContext); // Destructure startTimer from context
 
   const handleSignOut = async () => {
     try {
@@ -19,6 +24,12 @@ export default function Dashboard() {
       console.error('Sign out error:', error.message);
     }
   };
+
+  useEffect(() => {
+    // Start the timer when Dashboard mounts
+    startTimer();
+    // The empty dependency array ensures this runs only once when Dashboard mounts
+  }, [startTimer]);
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -153,6 +164,9 @@ export default function Dashboard() {
           </div>
         </div>
       )}
+
+      {/* Timer Modal - will appear if timer expired */}
+      <TimerModal />
     </div>
   );
 }

@@ -1,0 +1,97 @@
+/* src/components/TimerModal.css */
+
+/* Overlay for the Timer Modal */
+.timer-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Increased opacity for more blur */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(8px); /* Enhanced blur effect */
+  z-index: 1000;
+}
+
+/* Modal Window */
+.timer-modal-window {
+  background-color: white;
+  padding: 30px 40px;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 400px;
+  width: 80%;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Modal Text */
+.timer-modal-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #000; /* Black color */
+  margin-bottom: 25px; /* Increased margin for spacing */
+}
+
+/* Button Group */
+.timer-modal-button-group {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between buttons */
+}
+
+/* Popup Buttons */
+.timer-modal-button {
+  background-color: #00759c;
+  color: white;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.timer-modal-button:hover {
+  background-color: #005f80; /* Darker blue on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Specific Styles for Log In and Sign Up Buttons (Optional) */
+.login-button {
+  /* Additional styles for Log In button if needed */
+}
+
+.signup-button {
+  /* Additional styles for Sign Up button if needed */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 480px) {
+  .timer-modal-window {
+    padding: 20px 25px;
+    max-width: 90%;
+    width: 95%;
+  }
+
+  .timer-modal-text {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+
+  .timer-modal-button {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+
+  .timer-modal-button-group {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .timer-modal-button {
+    width: 100%;
+  }
+}

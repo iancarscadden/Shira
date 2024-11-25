@@ -75,7 +75,7 @@ export default function Navbar({
     return (
       <div className="navbar">
         <div className="navbar-brand" onClick={() => navigate('/')}>
-          LinguaBeats
+          Shira
         </div>
         <div className="navbar-buttons">
           <button className="header-button" onClick={onAccountClick}>
@@ -108,7 +108,7 @@ export default function Navbar({
   return (
     <div className="navbar">
       <span className="navbar-brand" onClick={handleBrandClick}>
-        LinguaBeats
+        Shira
       </span>
       {/* Removed Log In and Sign Up buttons from default Navbar */}
       {/* If you need other buttons on the Landing Page Navbar, add them here */}

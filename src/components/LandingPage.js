@@ -77,7 +77,7 @@ export default function LandingPage() {
       <canvas ref={canvasRef} className="background-canvas" />
       <Navbar /> {/* Include Navbar */}
       <div className="main-content">
-        <h1>LinguaBeats</h1>
+        <h1>Shira</h1>
         <div className="text-section">
           <section className="dropdown-section">
             <h2 onClick={toggleWhoWeAre} className="dropdown-header">

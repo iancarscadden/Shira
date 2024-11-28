@@ -15,14 +15,14 @@ body, html {
 }
 
 /* Landing Page Styling */
-.landing-page {
+.landingPage-container {
   position: relative;
   width: 100%;
   min-height: 100vh; /* Allow landing-page to expand beyond 100vh */
 }
 
 /* Background Canvas */
-.background-canvas {
+.landingPage-backgroundCanvas {
   position: absolute; /* Changed from fixed to absolute */
   top: 0;
   left: 0;
@@ -33,38 +33,44 @@ body, html {
 }
 
 /* Main Content Container */
-.main-content {
+.landingPage-mainContent {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  padding: 40px 1rem 20px 1rem; /* Reduced padding */
+  justify-content: space-between;
+  padding: 40px 5%;
   z-index: 5;
   position: relative;
   min-height: 100vh; /* Ensures content spans at least full viewport height */
-  text-align: center;
+  text-align: left;
 }
 
-/* Welcome Text */
-.main-content h1 {
-  font-size: 3rem; /* Reduced font size */
+/* Left Content Styling */
+.landingPage-leftContent {
+  flex: 1;
+  max-width: 50%;
+  padding-right: 20px;
+}
+
+.landingPage-leftContent h1 {
+  font-size: 3rem; /* Adjust as needed */
   font-weight: bold;
   color: white;
   margin-bottom: 1.5rem;
 }
 
-.text-section {
+.landingPage-textSection {
   max-width: 600px;
   width: 100%;
   margin-bottom: 1.5rem;
 }
 
-.dropdown-section {
+.landingPage-dropdownSection {
   margin-bottom: 1rem;
 }
 
-.dropdown-header {
-  font-size: 1.8rem; /* Reduced font size */
+.landingPage-dropdownHeader {
+  font-size: 1.8rem; /* Adjust as needed */
   font-weight: 300;
   color: white;
   margin-bottom: 0.4rem;
@@ -72,14 +78,13 @@ body, html {
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
-.dropdown-header:hover {
+.landingPage-dropdownHeader:hover {
   color: #d1d1d1;
 }
 
-.arrow {
+.landingPage-arrow {
   margin-left: 8px;
   border: solid white;
   border-width: 0 2px 2px 0;
@@ -89,16 +94,16 @@ body, html {
   transition: transform 0.3s;
 }
 
-.arrow.up {
+.landingPage-arrowUp {
   transform: rotate(-135deg);
 }
 
-.arrow.down {
+.landingPage-arrowDown {
   transform: rotate(45deg);
 }
 
-.dropdown-content {
-  font-size: 1.1rem; /* Reduced font size */
+.landingPage-dropdownContent {
+  font-size: 1.1rem; /* Adjust as needed */
   line-height: 1.6;
   color: white;
   max-height: 500px;
@@ -107,11 +112,11 @@ body, html {
   padding: 0 1rem;
 }
 
-.start-button {
+.landingPage-startButton {
   background-color: #7ed348;
   color: #00759c;
   padding: 0.8rem 1.5rem; /* Adjusted padding */
-  font-size: 1.1rem; /* Reduced font size */
+  font-size: 1.1rem; /* Adjust as needed */
   font-weight: bold;
   text-transform: uppercase;
   border: none;
@@ -119,37 +124,107 @@ body, html {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s, box-shadow 0.3s;
   cursor: pointer;
-  margin-bottom: 20px; /* Reduced space below the button */
+  margin-bottom: 20px; /* Adjust as needed */
 }
 
-.start-button:hover {
+.landingPage-startButton:hover {
   background-color: #6cbc40;
   transform: scale(1.05);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
+/* Right Content Styling */
+.landingPage-rightContent {
+  flex: 1;
+  max-width: 50%;
+  padding-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landingPage-videoContainer {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+  height: 0;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.landingPage-videoContainer iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 10px;
+}
+
 /* Responsive Adjustments */
+@media (max-width: 1024px) {
+  .landingPage-mainContent {
+    flex-direction: column;
+    padding: 20px 5%;
+  }
+
+  .landingPage-leftContent,
+  .landingPage-rightContent {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .landingPage-videoContainer {
+    margin-top: 20px;
+  }
+}
+
 @media (max-width: 768px) {
-  .main-content h1 {
+  .landingPage-leftContent h1 {
     font-size: 2.5rem;
   }
 
-  .dropdown-header {
+  .landingPage-dropdownHeader {
     font-size: 1.5rem;
   }
 
-  .dropdown-content {
+  .landingPage-dropdownContent {
     font-size: 1rem;
   }
 
-  .start-button {
+  .landingPage-startButton {
     width: 100%;
     max-width: 300px;
     margin-bottom: 15px; /* Further reduced margin on smaller screens */
   }
 
-  .main-content {
+  .landingPage-mainContent {
     padding-top: 40px; /* Adjusted top padding on smaller screens */
     padding-bottom: 10px; /* Adjusted bottom padding on small screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .landingPage-leftContent h1 {
+    font-size: 2rem;
+  }
+
+  .landingPage-dropdownHeader {
+    font-size: 1.3rem;
+  }
+
+  .landingPage-dropdownContent {
+    font-size: 0.95rem;
+  }
+
+  .landingPage-startButton {
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+  }
+
+  .landingPage-videoContainer {
+    margin-top: 15px;
   }
 }

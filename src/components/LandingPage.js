@@ -73,53 +73,68 @@ export default function LandingPage() {
   };
 
   return (
-    <div className="landing-page" ref={pageRef}>
-      <canvas ref={canvasRef} className="background-canvas" />
+    <div className="landingPage-container" ref={pageRef}>
+      <canvas ref={canvasRef} className="landingPage-backgroundCanvas" />
       <Navbar /> {/* Include Navbar */}
-      <div className="main-content">
-        <h1>Shira</h1>
-        <div className="text-section">
-          <section className="dropdown-section">
-            <h2 onClick={toggleWhoWeAre} className="dropdown-header">
-              Who we are
-              <span className={`arrow ${isWhoWeAreOpen ? 'up' : 'down'}`}></span>
-            </h2>
-            {isWhoWeAreOpen && (
-              <p className="dropdown-content">
-                We’re two college students passionate about discovering and designing fun,
-                engaging ways to make language learning more effective and enjoyable.
-              </p>
-            )}
-          </section>
-          <section className="dropdown-section">
-            <h2 onClick={toggleWhatWeDo} className="dropdown-header">
-              What we do
-              <span className={`arrow ${isWhatWeDoOpen ? 'up' : 'down'}`}></span>
-            </h2>
-            {isWhatWeDoOpen && (
-              <p className="dropdown-content">
-                We focus on helping learners achieve conversational fluency that can be
-                applied confidently in real-life situations.
-              </p>
-            )}
-          </section>
-          <section className="dropdown-section">
-            <h2 onClick={toggleOurMission} className="dropdown-header">
-              Our Mission
-              <span className={`arrow ${isOurMissionOpen ? 'up' : 'down'}`}></span>
-            </h2>
-            {isOurMissionOpen && (
-              <p className="dropdown-content">
-                Using music to bridge the gap between traditional language learning methods
-                and verbal confidence, focusing on conversational fluency, contextualization,
-                and cultural immersion.
-              </p>
-            )}
-          </section>
+      <div className="landingPage-mainContent">
+        {/* Left Side: Text Content */}
+        <div className="landingPage-leftContent">
+          <h1>Shira</h1>
+          <div className="landingPage-textSection">
+            <section className="landingPage-dropdownSection">
+              <h2 onClick={toggleWhoWeAre} className="landingPage-dropdownHeader">
+                Who we are
+                <span className={`landingPage-arrow ${isWhoWeAreOpen ? 'landingPage-arrowUp' : 'landingPage-arrowDown'}`}></span>
+              </h2>
+              {isWhoWeAreOpen && (
+                <p className="landingPage-dropdownContent">
+                  We’re two college students passionate about discovering and designing fun,
+                  engaging ways to make language learning more effective and enjoyable.
+                </p>
+              )}
+            </section>
+            <section className="landingPage-dropdownSection">
+              <h2 onClick={toggleWhatWeDo} className="landingPage-dropdownHeader">
+                What we do
+                <span className={`landingPage-arrow ${isWhatWeDoOpen ? 'landingPage-arrowUp' : 'landingPage-arrowDown'}`}></span>
+              </h2>
+              {isWhatWeDoOpen && (
+                <p className="landingPage-dropdownContent">
+                  We focus on helping learners achieve conversational fluency that can be
+                  applied confidently in real-life situations.
+                </p>
+              )}
+            </section>
+            <section className="landingPage-dropdownSection">
+              <h2 onClick={toggleOurMission} className="landingPage-dropdownHeader">
+                Our Mission
+                <span className={`landingPage-arrow ${isOurMissionOpen ? 'landingPage-arrowUp' : 'landingPage-arrowDown'}`}></span>
+              </h2>
+              {isOurMissionOpen && (
+                <p className="landingPage-dropdownContent">
+                  Using music to bridge the gap between traditional language learning methods
+                  and verbal confidence, focusing on conversational fluency, contextualization,
+                  and cultural immersion.
+                </p>
+              )}
+            </section>
+          </div>
+          <button className="landingPage-startButton" onClick={() => navigate('/dashboard')}>
+            Effortless Conversations Start Here
+          </button>
         </div>
-        <button className="start-button" onClick={() => navigate('/dashboard')}>
-          Effortless Conversations Start Here
-        </button>
+        {/* Right Side: Embedded Video */}
+        <div className="landingPage-rightContent">
+          <div className="landingPage-videoContainer">
+            <iframe
+              src="https://www.youtube.com/embed/SbkBVIgY5Q8"
+              title="Shira Demo Video"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </div>
       </div>
     </div>
   );
